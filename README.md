@@ -28,26 +28,25 @@ Please pay attention to this if adding problems and implementing solutions, so e
 .
 ├── LICENSE
 ├── LeetSwift                                # Companion app
-│   ├── Package.swift                        # Dummy package - excludes this folder from the main package
-│   └── ...                                  # Companion app project files
-├── LeetSwift.xcworkspace                    # Workspace
-├── Package.swift                            # Main package
-├── Sources                                  # Main package source code
+│   └── ...                                  # Project files
+├── LeetSwift.xcworkspace
+├── Package.swift                            # LeetSwiftCore package spec
+├── Sources
 │   └── LeetSwiftCore                        # Library folder
-│       ├── Problems                         # Descriptions and definitions
-│       │   └── XXX - Problem title          # Problem files
-│       │       └── ProblemDefinition.swift  # Protocol-based problem definition
-│       └── Solutions                        # Implementation of solutions
-│           └── XXX - Problem title          # Problem solution folder
-│               └── ProblemSolution.swift    # A solution to the corresponding problem
-└── Tests                                    # Main package source code tests
-    └── LeetSwiftCoreTests                   # Core tests
-        ├── Core                             # Core testing support files
-        │   ├── TestCaseProviding.swift      # Testing support
-        │   └── TestData.swift               # Definition of test data
-        └── Problems                         # Tests for the solutions of all problems
-            └── XXX - Problem title          # Problem solution test folder
-                └── ProblemTests.swift       # Run test cases for a solution to the corresponding problem
+│       ├── Problems
+│       │   └── XXX - Problem title
+│       │       └── ProblemDefinition.swift  # Problem definition
+│       └── Solutions
+│           └── XXX - Problem title
+│               └── ProblemSolution.swift    # Problem solutions
+└── Tests
+    └── LeetSwiftCoreTests
+        ├── Core                             # Testing support files
+        │   ├── TestCaseProviding.swift
+        │   └── TestData.swift
+        └── Problems
+            └── XXX - Problem title
+                └── ProblemTests.swift       # Test cases for problem solutions
 ```
 
 ## Problems
@@ -58,7 +57,7 @@ You can find the walkthrough with detailed solution of all the problems on my bl
 
 | # | Title | Solution | Difficulty | Topics | Time | Space | Walkthrough |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | [Two Sum][001-problem] | [Solution][001-solution] | ![Difficulty][difficulty-easy-shield] | **`A`** **`HT`** | | | |
+| 1 | [Two Sum][001-problem] | [Solution][001-solution] | ![Difficulty][difficulty-easy-shield] | **`A`** **`HT`** | `O(n)` | `O(n)` | [Walkthrough][jobear-blog-url] |
 
 ### Topics
 - **`A`** : Array
