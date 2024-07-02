@@ -57,7 +57,9 @@ You can find the walkthrough with detailed solution of all the problems on my bl
 
 | # | Title | Solution | Difficulty | Topics | Time | Space | Walkthrough |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | [Two Sum][001-problem] | [Solution][001-solution] | ![Difficulty][difficulty-easy-shield] | **`A`** **`HT`** | `O(n)` | `O(n)` | [Walkthrough][jobear-blog-url] |
+| 1 | [Two Sum][001-problem] | [Solution][001-solution] | ![Difficulty][difficulty-easy-shield] | **`A`** **`HT`** | `O(n)` | `O(n)` | [Walkthrough][jobear-
+blog-url] |
+| 2 | [Add Two Numbers][002-problem] | [Solution][002-solution] | ![Difficulty][difficulty-medium-shield] | **`A`** **`HT`** | | | [Walkthrough][jobear-blog-url] |
 
 ### Topics
 - **`A`** : Array
@@ -84,4 +86,6 @@ If you would like to contribute, I recomment to write your solutions using this 
 [difficulty-hard-shield]: https://img.shields.io/badge/%20Difficulty-Hard-red.svg
 [001-problem]: https://leetcode.com/problems/two-sum
 [001-solution]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/LeetSwiftCore/Solutions/001%20-%20Two%20Sum/TwoSumSolution.swift
+[002-problem]: https://leetcode.com/problems/add-two-numbers
+[002-solution]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/LeetSwiftCore/Solutions/002%20-%20Add%20Two%20Numbers/AddTwoNumbersSolution.swift
 
