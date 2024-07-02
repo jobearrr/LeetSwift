@@ -18,7 +18,7 @@ Each problem solution has a test case in the [`Tests`][test-cases-folder-url] fo
 
 You can modify the test cases, provide new inputs and expected outputs.
 
-Or you can run the companion app `LeetSwift`, to browse and run the test cases of the solutions for the problems you would like to check.
+Or you can run the companion app `LeetSwift` (🚧 under construction 👷), to browse and run the test cases of the solutions for the problems you would like to check.
 
 ## Project structure
 Here's the representation of the project structure, to make it easier to navigate through all folders.  
@@ -50,10 +50,7 @@ Please pay attention to this if adding problems and implementing solutions, so e
                 └── ProblemTests.swift       # Run test cases for a solution to the corresponding problem
 ```
 
-### Companion App (🚧 Under construction 👷)
-The companion app `LeetSwift` is intended to make it easier to browse and run the solutions. You can run it on any platform.
-
-### Problems
+## Problems
 
 Below there is a table with all the problems with their corresponding solution.
 
@@ -63,11 +60,11 @@ You can find the walkthrough with detailed solution of all the problems on my bl
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [Two Sum][001-problem] | [Solution][001-solution] | ![Difficulty][difficulty-easy-shield] | **`A`** **`HT`** | | | |
 
-#### Topics
+### Topics
 - **`A`** : Array
 - **`HT`** : Hash Table
 
-## Approach
+## TDD Approach
 Here, I use the TDD approach, writing the test cases before writing the solution. This way, I can quickly verify if the solution works as expected. The goals is to always have test cases for all the problems and to make all of them green.
 
 If you would like to contribute, I recomment to write your solutions using this same approach.
