@@ -25,6 +25,7 @@ final class TwoSumTests: XCTestCase {
 
 extension TwoSumTests: TestCaseProviding {
     func validateInput(_ input: (nums: [Int], target: Int)) -> Bool {
+        // TODO: Complete validation
         input.nums.count >= 2 &&
         input.nums.count <= 10_000 &&
         input.target >= -1_000_000_000 &&
