@@ -57,13 +57,15 @@ You can find the walkthrough with detailed solution of all the problems on my bl
 
 | # | Title | Solution | Difficulty | Topics | Time | Space | Walkthrough |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | [Two Sum][001-problem] | [Solution][001-solution] | ![Difficulty][difficulty-easy-shield] | **`A`** **`HT`** | `O(n)` | `O(n)` | [Walkthrough][jobear-
-blog-url] |
-| 2 | [Add Two Numbers][002-problem] | [Solution][002-solution] | ![Difficulty][difficulty-medium-shield] | **`A`** **`HT`** | | | [Walkthrough][jobear-blog-url] |
+| 1 | [Two Sum][001-problem] | [Solution][001-solution] | ![Difficulty][difficulty-easy-shield] | **`A`** **`HT`** | `O(n)` | `O(n)` | [Walkthrough][jobear-blog-url] |
+| 2 | [Add Two Numbers][002-problem] | [Solution][002-solution] | ![Difficulty][difficulty-medium-shield] | **`LL`** **`M`** **`R`** | | | [Walkthrough][jobear-blog-url] |
 
 ### Topics
 - **`A`** : Array
 - **`HT`** : Hash Table
+- **`LL`**: Linked List
+- **`M`**: Math
+- **`R`**: Recursion
 
 ## TDD Approach
 Here, I use the TDD approach, writing the test cases before writing the solution. This way, I can quickly verify if the solution works as expected. The goals is to always have test cases for all the problems and to make all of them green.
