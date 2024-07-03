@@ -1,5 +1,5 @@
 //
-//  TwoSumTests.swift
+//  TwoSumSolutionTests.swift
 //  LeetSwift
 //
 //  Created by Jobert Sá on 02/07/2024.
@@ -8,7 +8,7 @@
 import XCTest
 @testable import LeetCode
 
-final class TwoSumTests: XCTestCase {
+final class TwoSumSolutionTests: XCTestCase {
     
     let solution: TwoSumDefinition = TwoSumSolution()
     
@@ -23,7 +23,7 @@ final class TwoSumTests: XCTestCase {
     }
 }
 
-extension TwoSumTests: TestCaseProviding {
+extension TwoSumSolutionTests: TestCaseProviding {
     
     func validateInput(_ input: (nums: [Int], target: Int)) -> Bool {
         // TODO: Complete validation

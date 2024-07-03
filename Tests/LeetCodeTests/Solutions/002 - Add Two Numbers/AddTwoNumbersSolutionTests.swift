@@ -1,5 +1,5 @@
 //
-//  AddTwoNumbersTests.swift
+//  AddTwoNumbersSolutionTests.swift
 //  LeetSwift
 //
 //  Created by Jobert Sá on 02/07/2024.
@@ -8,7 +8,7 @@
 import XCTest
 @testable import LeetCode
 
-final class AddTwoNumbersTests: XCTestCase {
+final class AddTwoNumbersSolutionTests: XCTestCase {
     
     let solution: AddTwoNumbersDefinition = AddTwoNumbersSolution()
     
@@ -23,7 +23,7 @@ final class AddTwoNumbersTests: XCTestCase {
     }
 }
 
-extension AddTwoNumbersTests: TestCaseProviding {
+extension AddTwoNumbersSolutionTests: TestCaseProviding {
     
     func validateInput(_ input: (l1: ListNode?, l2: ListNode?)) -> Bool {
         // TODO: Implement validation
