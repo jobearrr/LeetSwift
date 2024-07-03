@@ -24,6 +24,7 @@ final class AddTwoNumbersTests: XCTestCase {
 }
 
 extension AddTwoNumbersTests: TestCaseProviding {
+    
     func validateInput(_ input: (l1: ListNode?, l2: ListNode?)) -> Bool {
         // TODO: Implement validation
         true
@@ -43,15 +44,4 @@ extension AddTwoNumbersTests: TestCaseProviding {
             expectedOutput: [8, 9, 9, 9, 0, 0, 0, 1].listNode
         )
     ] }
-}
-
-private extension Array where Element == Int {
-    var listNode: ListNode? {
-        guard let first else { return nil }
-        let l = ListNode(first)
-        for i in 1..<count {
-            l.next = ListNode(self[i])
-        }
-        return l
-    }
 }

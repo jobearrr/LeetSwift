@@ -8,6 +8,7 @@
 import Foundation
 
 public class ListNode {
+    
     public var val: Int
     public var next: ListNode? = nil
     
@@ -26,6 +27,7 @@ public class ListNode {
 }
 
 extension ListNode: Equatable {
+    
     public static func == (lhs: ListNode, rhs: ListNode) -> Bool {
         lhs.val == rhs.val && lhs.next == rhs.next
     }

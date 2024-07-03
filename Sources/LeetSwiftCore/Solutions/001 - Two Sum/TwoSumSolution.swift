@@ -8,6 +8,7 @@
 import Foundation
 
 class TwoSumSolution: TwoSumDefinition {
+    
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
         var dictionary: [Int: Int] = [:]
         
