@@ -1,12 +1,12 @@
 //
 //  AddTwoNumbersTests.swift
-//  
+//  LeetSwift
 //
 //  Created by Jobert Sá on 02/07/2024.
 //
 
 import XCTest
-@testable import LeetSwiftCore
+@testable import LeetCode
 
 final class AddTwoNumbersTests: XCTestCase {
     

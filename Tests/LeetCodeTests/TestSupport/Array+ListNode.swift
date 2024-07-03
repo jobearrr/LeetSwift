@@ -6,7 +6,7 @@
 //
 
 import Foundation
-@testable import LeetSwiftCore
+@testable import LeetCode
 
 extension Array where Element == Int {
     

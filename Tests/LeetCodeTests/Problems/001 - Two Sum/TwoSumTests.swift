@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import LeetSwiftCore
+@testable import LeetCode
 
 final class TwoSumTests: XCTestCase {
     
