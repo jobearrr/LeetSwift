@@ -6,7 +6,10 @@
 //
 
 import XCTest
-@testable import LeetCode
+@testable import Core
+@testable import Problems
+@testable import Solutions
+@testable import TestSupport
 
 final class AddTwoNumbersSolutionTests: XCTestCase {
     

@@ -6,9 +6,9 @@
 //
 
 import Foundation
-@testable import LeetCode
+import Core
 
-extension Array where Element == Int {
+public extension Array where Element == Int {
     
     var listNode: ListNode? {
         guard let first else { return nil }

@@ -6,8 +6,9 @@
 //
 
 import Foundation
+import Problems
 
-class TwoSumSolution: TwoSumDefinition {
+final class TwoSumSolution: TwoSumDefinition {
     
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
         var dictionary: [Int: Int] = [:]

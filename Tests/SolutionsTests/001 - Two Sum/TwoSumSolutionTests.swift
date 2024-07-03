@@ -6,7 +6,9 @@
 //
 
 import XCTest
-@testable import LeetCode
+@testable import Problems
+@testable import Solutions
+@testable import TestSupport
 
 final class TwoSumSolutionTests: XCTestCase {
     

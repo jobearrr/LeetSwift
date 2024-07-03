@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "LeetCode",
+    name: "LeetSwift",
     platforms: [
       .iOS(.v15),
       .macOS(.v12),
@@ -12,14 +12,34 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "LeetCode",
-            targets: ["LeetCode"])
+            name: "Core",
+            targets: ["Core"]),
+        .library(
+            name: "Problems",
+            targets: ["Problems"]),
+        .library(
+            name: "Solutions",
+            targets: ["Solutions"]),
+        .library(
+            name: "TestSupport",
+            targets: ["TestSupport"]),
     ],
     targets: [
-        .target(
-            name: "LeetCode"),
+        .target(name: "Core"),
+        .target(name: "Problems", dependencies: ["Core"]),
+        .target(name: "Solutions", dependencies: ["Core", "Problems"]),
+        .target(name: "TestSupport", dependencies: ["Core"]),
         .testTarget(
-            name: "LeetCodeTests",
-            dependencies: ["LeetCode"])
+            name: "CoreTests",
+            dependencies: ["Core"]),
+        .testTarget(
+            name: "ProblemsTests",
+            dependencies: ["Core", "Problems"]),
+        .testTarget(
+            name: "SolutionsTests",
+            dependencies: ["Core", "Solutions", "TestSupport"]),
+        .testTarget(
+            name: "TestSupportTests",
+            dependencies: ["Core", "TestSupport"])
     ]
 )

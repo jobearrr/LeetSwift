@@ -6,6 +6,7 @@
 //
 
 import XCTest
+@testable import TestSupport
 
 class TestDataTests: XCTestCase {
     // Test for integers

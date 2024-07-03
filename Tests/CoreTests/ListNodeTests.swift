@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import LeetCode
+@testable import Core
 
 class ListNodeTests: XCTestCase {
     

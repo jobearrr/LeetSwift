@@ -6,7 +6,8 @@
 //
 
 import Foundation
+import Core
 
-protocol AddTwoNumbersDefinition {
+public protocol AddTwoNumbersDefinition {
     func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode?
 }
