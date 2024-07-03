@@ -70,10 +70,10 @@ Below there is a table with all the problems with their corresponding solution.
 
 You can find the walkthrough with detailed solution of all the problems on my blog [jobear.dev][jobear-blog-url], or concrete problem solution walkthrough on the `Walkthrough` column (🚧 Under construction 👷).
 
-| # | Title | Solution | Difficulty | Topics | Time | Space | Walkthrough |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | [Two Sum][001-problem] | [Solution][001-solution] | ![Difficulty][difficulty-easy-shield] | **`A`** **`HT`** | `O(n)` | `O(n)` | [Walkthrough][jobear-blog-url] |
-| 2 | [Add Two Numbers][002-problem] | [Solution][002-solution] | ![Difficulty][difficulty-medium-shield] | **`LL`** **`M`** **`R`** | `O(max(m, n))` | `O(max(m, n))` | [Walkthrough][jobear-blog-url] |
+| # | Title | Solution | Difficulty | Topics | Time/Space Complexity | Walkthrough |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | [Two Sum][001-problem] | [Solution][001-solution] | ![Difficulty][difficulty-easy-shield] | **`A`** **`HT`** | `O(n)` / `O(n)` | [Walkthrough][jobear-blog-url] |
+| 2 | [Add Two Numbers][002-problem] | [Solution][002-solution] | ![Difficulty][difficulty-medium-shield] | **`LL`** **`M`** **`R`** | `O(max(m, n))` / `O(max(m, n))` | [Walkthrough][jobear-blog-url] |
 
 ### Topics
 - **`A`** : Array
@@ -91,7 +91,7 @@ If you would like to contribute, please use this same approach.
 
 ## License
 
-Please note this project uses GNU AGPLv3 license, which requires any code or software that uses it to be made completely available.
+Please note this project uses GNU AGPLv3 license, which requires any code or software that uses it to be made their code also completely available.
 
 This project is intended to be used for educational purposes only.
 
@@ -109,9 +109,9 @@ Please aknowledge [the license](https://github.com/jobearrr/LeetSwift/blob/main/
 [jobear-blog-url]: https://jobear.dev
 [solutions-tests-folder]: https://github.com/jobearrr/LeetSwift/tree/main/Tests/SolutionsTests
 [license-url]: https://github.com/jobearrr/LeetSwift?tab=AGPL-3.0-1-ov-file#readme
-[difficulty-easy-shield]: https://img.shields.io/badge/%20Difficulty-Easy-brightgreen.svg
-[difficulty-medium-shield]: https://img.shields.io/badge/%20Difficulty-Medium-orange.svg
-[difficulty-hard-shield]: https://img.shields.io/badge/%20Difficulty-Hard-red.svg
+[difficulty-easy-shield]: https://img.shields.io/badge/Easy-brightgreen.svg
+[difficulty-medium-shield]: https://img.shields.io/badge/Medium-orange.svg
+[difficulty-hard-shield]: https://img.shields.io/badge/Hard-red.svg
 [001-problem]: https://leetcode.com/problems/two-sum
 [001-solution]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/Solutions/001%20-%20Two%20Sum/TwoSumSolution.swift
 [001-walkthrough]: https://jobear.dev
