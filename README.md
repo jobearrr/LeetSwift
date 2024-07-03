@@ -95,7 +95,7 @@ Please note this project uses GNU AGPLv3 license, which requires any code or sof
 
 This project is intended to be used for educational purposes only.
 
-Please aknowledge [the license][license-url] and reach out to me if you intend to use any content from here.
+Please aknowledge [the license](https://github.com/jobearrr/LeetSwift/blob/main/LICENSE) and reach out to me if you intend to use any content from here.
 
 <!-- Markdown references https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [last-commit-shield]: https://img.shields.io/github/last-commit/jobearrr/LeetSwift?style=flat
@@ -108,7 +108,7 @@ Please aknowledge [the license][license-url] and reach out to me if you intend t
 [linkedin-url]: https://www.linkedin.com/in/jobertsa
 [jobear-blog-url]: https://jobear.dev
 [solutions-tests-folder]: https://github.com/jobearrr/LeetSwift/tree/main/Tests/SolutionsTests
-[license-url]: https://github.com/jobearrr/LeetSwift/blob/main/LICENSE
+[license-url]: https://github.com/jobearrr/LeetSwift?tab=AGPL-3.0-1-ov-file#readme
 [difficulty-easy-shield]: https://img.shields.io/badge/%20Difficulty-Easy-brightgreen.svg
 [difficulty-medium-shield]: https://img.shields.io/badge/%20Difficulty-Medium-orange.svg
 [difficulty-hard-shield]: https://img.shields.io/badge/%20Difficulty-Hard-red.svg
