@@ -14,53 +14,54 @@ Solutions to [LeetCode](https://leetcode.com/) problems written in Swift.
 
 ## Running the solutions
 
-Each problem solution has a test case in the [`Tests`][test-cases-folder-url] folder.
+Each solution has a test cases that can be found in the [SolutionsTests][solutions-tests-folder] folder.  
+So it should have 100% code coverage for obvious reasons. 😬
 
 You can modify the test cases, provide new inputs and expected outputs.
 
 Or you can run the companion app `LeetSwift` (🚧 under construction 👷), to browse and run the test cases of the solutions for the problems you would like to check.
 
 ## Project structure
-Here's the representation of the project structure, to make it easier to navigate through all folders.  
+Here's the representation of the project structure, to make it easier to navigate through all the content.  
 
 Please pay attention to this if adding problems and implementing solutions, so everything conforms to this folder structure.
 ``` bash
 .
-├── LeetSwift                                 # Companion app
-│   └── ...                                   # Project files
+├── LeetSwift                             # Companion app
+│   └── ...                               # Project files
 ├── LeetSwift.xcworkspace
-├── Package.swift                             # LeetCode package spec
+├── Package.swift                         # LeetSwift package spec
 ├── Sources
-│   └── LeetCode                              # Library folder
-│       ├── Core
-│       │   └── ...                           # Ddata structures, helpers, etc.
-│       ├── Problems
-│       │   ├── ...
-│       │   └── XXX - Problem title
-│       │       └── ProblemDefinition.swift   # Problem definition
-│       └── Solutions
-│           ├── ...
-│           └── XXX - Problem title
-│               ├── ...                       # Other solutions
-│               └── Solution.swift            # One solution
+│   ├── Core                              # Data structures, helpers, etc.
+│   │   └── ...
+│   ├── Problems
+│   │   ├── ...
+│   │   └── XXX - Problem title
+│   │       └── ProblemDefinition.swift   # Problem definition
+│   ├── Solutions
+│   │   ├── ...
+│   │   └── XXX - Problem title
+│   │       ├── ...                       # Other solutions
+│   │       └── Solution.swift            # One solution
+│   └── TestSupport                       # Testing support files
+│       ├── ...
+│       ├── Array+ListNode.swift
+│       ├── TestCaseProviding.swift
+│       └── TestData.swift
 └── Tests
-    └── LeetCodeTests
-        ├── Core                              # LeetCode core tests
-        │   └── ...
-        ├── Solutions                         # Test cases for solutions
-        │   ├── ...
-        │   └── XXX - Problem title
-                ├── ...                       # Test cases for other solutions
-        │       └── SolutionTests.swift       # Test cases for one solution
-        └── TestSupport                       # Testing support files
-            ├── ...
-            ├── Array+ListNode.swift
-            ├── TestCaseProviding.swift
-            ├── TestData.swift
-            └── Tests                         # Covers test code as well
-                ├── ...
-                ├── ArrayListNodeTests.swift
-                └── TestDataTests.swift
+    ├── Core                              # LeetCode core tests
+    │   └── ...
+    ├── ProblemsTests                     # Input validation, etc.
+    │   ├── ...
+    │   └── XXX - Problem title
+    │       └── ProblemTests.swift
+    ├── Solutions                         # Run test cases for solutions
+    │   ├── ...
+    │   └── XXX - Problem title
+    │       ├── ...                       # Test cases for other solutions
+    │       └── SolutionTests.swift       # Test cases for one solution
+    └── TestSupportTests                  # Testing support files
+        └── ...
 ```
 
 ## Problems
@@ -98,13 +99,13 @@ If you would like to contribute, please use this same approach.
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg??style=flat&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/jobertsa
 [jobear-blog-url]: https://jobear.dev
-[test-cases-folder-url]: https://github.com/jobearrr/LeetSwift/tree/main/Tests/LeetSwiftCoreTests/Problems
+[solutions-tests-folder]: https://github.com/jobearrr/LeetSwift/tree/main/Tests/SolutionsTests
 [difficulty-easy-shield]: https://img.shields.io/badge/%20Difficulty-Easy-brightgreen.svg
 [difficulty-medium-shield]: https://img.shields.io/badge/%20Difficulty-Medium-orange.svg
 [difficulty-hard-shield]: https://img.shields.io/badge/%20Difficulty-Hard-red.svg
 [001-problem]: https://leetcode.com/problems/two-sum
-[001-solution]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/LeetCode/Solutions/001%20-%20Two%20Sum/TwoSumSolution.swift
+[001-solution]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/Solutions/001%20-%20Two%20Sum/TwoSumSolution.swift
 [001-walkthrough]: https://jobear.dev
 [002-problem]: https://leetcode.com/problems/add-two-numbers
-[002-solution]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/LeetCode/Solutions/002%20-%20Add%20Two%20Numbers/AddTwoNumbersSolution.swift
+[002-solution]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/Solutions/002%20-%20Add%20Two%20Numbers/AddTwoNumbersSolution.swift
 [002-walkthrough]: https://jobear.dev
