@@ -72,7 +72,7 @@ You can find the walkthrough with detailed solution of all the problems on my bl
 
 | # | Title | Solution | Difficulty | Topics | Time/Space Complexity | Walkthrough |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | [Two Sum][001-problem] | [Solution][001-solution] | ![Difficulty][difficulty-easy-shield] | **`A`** **`HT`** | `O(n)` / `O(n)` | [Walkthrough][jobear-blog-url] |
+| 1 | [Two Sum][001-problem] | [Solution][001-solution] | ![Difficulty][difficulty-easy-shield] | **`A`** **`HT`** | `O(n)` / `O(n)` | [Walkthrough][001-walkthrough] |
 | 2 | [Add Two Numbers][002-problem] | [Solution][002-solution] | ![Difficulty][difficulty-medium-shield] | **`LL`** **`M`** **`R`** | `O(max(m, n))` / `O(max(m, n))` | [Walkthrough][jobear-blog-url] |
 
 ### Topics
@@ -114,7 +114,7 @@ Please aknowledge [the license](https://github.com/jobearrr/LeetSwift/blob/main/
 [difficulty-hard-shield]: https://img.shields.io/badge/Hard-red.svg
 [001-problem]: https://leetcode.com/problems/two-sum
 [001-solution]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/Solutions/001%20-%20Two%20Sum/TwoSumSolution.swift
-[001-walkthrough]: https://jobear.dev
+[001-walkthrough]: https://jobear.dev/algo-hub/leetcode/001-two-sum
 [002-problem]: https://leetcode.com/problems/add-two-numbers
 [002-solution]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/Solutions/002%20-%20Add%20Two%20Numbers/AddTwoNumbersSolution.swift
 [002-walkthrough]: https://jobear.dev
