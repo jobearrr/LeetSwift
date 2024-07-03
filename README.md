@@ -89,6 +89,14 @@ The goal is to always have enough test cases for all the problems and then work 
 
 If you would like to contribute, please use this same approach.
 
+## License
+
+Please note this project uses GNU AGPLv3 license, which requires any code or software that uses it to be made completely available.
+
+This project is intended to be used for educational purposes only.
+
+Please aknowledge [the license][license-url] and reach out to me if you intend to use any content from here.
+
 <!-- Markdown references https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [last-commit-shield]: https://img.shields.io/github/last-commit/jobearrr/LeetSwift?style=flat
 [last-commit-url]: https://github.com/jobearrr/LeetSwift/commits/master
@@ -100,6 +108,7 @@ If you would like to contribute, please use this same approach.
 [linkedin-url]: https://www.linkedin.com/in/jobertsa
 [jobear-blog-url]: https://jobear.dev
 [solutions-tests-folder]: https://github.com/jobearrr/LeetSwift/tree/main/Tests/SolutionsTests
+[license-url]: https://github.com/jobearrr/LeetSwift/blob/main/LICENSE
 [difficulty-easy-shield]: https://img.shields.io/badge/%20Difficulty-Easy-brightgreen.svg
 [difficulty-medium-shield]: https://img.shields.io/badge/%20Difficulty-Medium-orange.svg
 [difficulty-hard-shield]: https://img.shields.io/badge/%20Difficulty-Hard-red.svg
