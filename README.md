@@ -26,27 +26,41 @@ Here's the representation of the project structure, to make it easier to navigat
 Please pay attention to this if adding problems and implementing solutions, so everything conforms to this folder structure.
 ``` bash
 .
-├── LICENSE
-├── LeetSwift                                # Companion app
-│   └── ...                                  # Project files
+├── LeetSwift                                 # Companion app
+│   └── ...                                   # Project files
 ├── LeetSwift.xcworkspace
-├── Package.swift                            # LeetSwiftCore package spec
+├── Package.swift                             # LeetCode package spec
 ├── Sources
-│   └── LeetSwiftCore                        # Library folder
+│   └── LeetCode                              # Library folder
+│       ├── Core
+│       │   └── ...                           # Ddata structures, helpers, etc.
 │       ├── Problems
+│       │   ├── ...
 │       │   └── XXX - Problem title
-│       │       └── ProblemDefinition.swift  # Problem definition
+│       │       └── ProblemDefinition.swift   # Problem definition
 │       └── Solutions
+│           ├── ...
 │           └── XXX - Problem title
-│               └── ProblemSolution.swift    # Problem solutions
+│               ├── ...                       # Other solutions
+│               └── Solution.swift            # One solution
 └── Tests
-    └── LeetSwiftCoreTests
-        ├── Core                             # Testing support files
-        │   ├── TestCaseProviding.swift
-        │   └── TestData.swift
-        └── Problems
-            └── XXX - Problem title
-                └── ProblemTests.swift       # Test cases for problem solutions
+    └── LeetCodeTests
+        ├── Core                              # LeetCode core tests
+        │   └── ...
+        ├── Solutions                         # Test cases for solutions
+        │   ├── ...
+        │   └── XXX - Problem title
+                ├── ...                       # Test cases for other solutions
+        │       └── SolutionTests.swift       # Test cases for one solution
+        └── TestSupport                       # Testing support files
+            ├── ...
+            ├── Array+ListNode.swift
+            ├── TestCaseProviding.swift
+            ├── TestData.swift
+            └── Tests                         # Covers test code as well
+                ├── ...
+                ├── ArrayListNodeTests.swift
+                └── TestDataTests.swift
 ```
 
 ## Problems
@@ -58,7 +72,7 @@ You can find the walkthrough with detailed solution of all the problems on my bl
 | # | Title | Solution | Difficulty | Topics | Time | Space | Walkthrough |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [Two Sum][001-problem] | [Solution][001-solution] | ![Difficulty][difficulty-easy-shield] | **`A`** **`HT`** | `O(n)` | `O(n)` | [Walkthrough][jobear-blog-url] |
-| 2 | [Add Two Numbers][002-problem] | [Solution][002-solution] | ![Difficulty][difficulty-medium-shield] | **`LL`** **`M`** **`R`** | | | [Walkthrough][jobear-blog-url] |
+| 2 | [Add Two Numbers][002-problem] | [Solution][002-solution] | ![Difficulty][difficulty-medium-shield] | **`LL`** **`M`** **`R`** | `O(max(m, n))` | `O(max(m, n))` | [Walkthrough][jobear-blog-url] |
 
 ### Topics
 - **`A`** : Array
@@ -68,9 +82,11 @@ You can find the walkthrough with detailed solution of all the problems on my bl
 - **`R`**: Recursion
 
 ## TDD Approach
-Here, I use the TDD approach, writing the test cases before writing the solution. This way, I can quickly verify if the solution works as expected. The goals is to always have test cases for all the problems and to make all of them green.
+Here, I use the TDD approach, writing the test cases before writing the solution. This way, I can quickly verify if the solution works as expected.
 
-If you would like to contribute, I recomment to write your solutions using this same approach.
+The goal is to always have enough test cases for all the problems and then work on the solution until all of these test cases are green.
+
+If you would like to contribute, please use this same approach.
 
 <!-- Markdown references https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [last-commit-shield]: https://img.shields.io/github/last-commit/jobearrr/LeetSwift?style=flat
@@ -87,7 +103,8 @@ If you would like to contribute, I recomment to write your solutions using this 
 [difficulty-medium-shield]: https://img.shields.io/badge/%20Difficulty-Medium-orange.svg
 [difficulty-hard-shield]: https://img.shields.io/badge/%20Difficulty-Hard-red.svg
 [001-problem]: https://leetcode.com/problems/two-sum
-[001-solution]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/LeetSwiftCore/Solutions/001%20-%20Two%20Sum/TwoSumSolution.swift
+[001-solution]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/LeetCode/Solutions/001%20-%20Two%20Sum/TwoSumSolution.swift
+[001-walkthrough]: https://jobear.dev
 [002-problem]: https://leetcode.com/problems/add-two-numbers
-[002-solution]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/LeetSwiftCore/Solutions/002%20-%20Add%20Two%20Numbers/AddTwoNumbersSolution.swift
-
+[002-solution]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/LeetCode/Solutions/002%20-%20Add%20Two%20Numbers/AddTwoNumbersSolution.swift
+[002-walkthrough]: https://jobear.dev
