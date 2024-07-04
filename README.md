@@ -68,7 +68,7 @@ Please pay attention to this if adding problems and implementing solutions, so e
 
 Below there is a table with all the problems with their corresponding solution.
 
-You can find the walkthrough with detailed solution of all the problems on my blog [jobear.dev][jobear-blog-url], or concrete problem solution walkthrough on the `Walkthrough` column (🚧 Under construction 👷).
+You can find the walkthrough with detailed solution of all the problems on my blog [jobear.dev][jobear-algo-url], or concrete problem solution walkthrough on the `Walkthrough` column (🚧 Under construction 👷).
 
 | # | Reference | Topics | Difficulty | Walkthrough | Solutions | Time | Space | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -110,6 +110,7 @@ Please aknowledge [the license](https://github.com/jobearrr/LeetSwift/blob/main/
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg??style=flat&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/jobertsa
 [jobear-blog-url]: https://jobear.dev
+[jobear-algo-url]: https://jobear.dev/algo-hub/
 [solutions-tests-folder]: https://github.com/jobearrr/LeetSwift/tree/main/Tests/SolutionsTests
 [license-url]: https://github.com/jobearrr/LeetSwift?tab=AGPL-3.0-1-ov-file#readme
 [difficulty-easy-shield]: https://img.shields.io/badge/Easy-brightgreen.svg
