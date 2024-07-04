@@ -1,8 +1,8 @@
 //
-//  TwoSumSolutionTests.swift
+//  TwoSumBruteForceSolutionTests.swift
 //  LeetSwift
 //
-//  Created by Jobert Sá on 02/07/2024.
+//  Created by Jobert Sá on 04/07/2024.
 //
 
 import XCTest
@@ -10,9 +10,9 @@ import XCTest
 @testable import Solutions
 @testable import TestSupport
 
-final class TwoSumSolutionTests: XCTestCase {
+final class TwoSumBruteForceSolutionTests: XCTestCase {
     
-    let solution: TwoSumDefinition = TwoSumSolution()
+    let solution: TwoSumDefinition = TwoSumBruteForceSolution()
     
     func testSolution() {
         for testData in data {
@@ -25,4 +25,4 @@ final class TwoSumSolutionTests: XCTestCase {
     }
 }
 
-extension TwoSumSolutionTests: TwoSumTestCaseProvider { }
+extension TwoSumBruteForceSolutionTests: TwoSumTestCaseProvider { }
