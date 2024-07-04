@@ -70,10 +70,13 @@ Below there is a table with all the problems with their corresponding solution.
 
 You can find the walkthrough with detailed solution of all the problems on my blog [jobear.dev][jobear-blog-url], or concrete problem solution walkthrough on the `Walkthrough` column (🚧 Under construction 👷).
 
-| # | Title | Solution | Difficulty | Topics | Time/Space Complexity | Walkthrough |
-| --- | --- | --- | --- | --- | --- | --- |
-| 1 | [Two Sum][001-problem] | [Solution][001-solution] | ![Difficulty][difficulty-easy-shield] | **`A`** **`HT`** | `O(n)` / `O(n)` | [Walkthrough][001-walkthrough] |
-| 2 | [Add Two Numbers][002-problem] | [Solution][002-solution] | ![Difficulty][difficulty-medium-shield] | **`LL`** **`M`** **`R`** | `O(max(m, n))` / `O(max(m, n))` | [Walkthrough][jobear-blog-url] |
+| # | Reference | Topics | Difficulty | Walkthrough | Solutions | Time | Space | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | [Two Sum][001-problem] | **`A`** **`HT`** | ![Difficulty][difficulty-easy-shield] | [Walkthrough][001-walkthrough] | [Solution 1][001-solution1] | `O(n²)` | `O(1)` | Brute force |
+| 1 | - | - | - | - | [Solution 2][001-solution2] | `O(n)` | `O(n)` | "Decent" |
+| 2 | [Add Two Numbers][002-problem] | **`LL`** **`M`** **`R`** | ![Difficulty][difficulty-medium-shield] | [Walkthrough][002-walkthrough] | [Solution 1][002-solution1] | `O(max(m, n))` | `O(1)` | Iterative |
+| 2 | - | - | - | - | [Solution 2][002-solution2] | `O(max(m, n))` | `O(1)` | Recursive |
+| 2 | - | - | - | - | [Solution 3][002-solution3] | `O(min(m, n))` | `O(1)` | Slightly better |
 
 ### Topics
 - **`A`** : Array
@@ -113,8 +116,11 @@ Please aknowledge [the license](https://github.com/jobearrr/LeetSwift/blob/main/
 [difficulty-medium-shield]: https://img.shields.io/badge/Medium-orange.svg
 [difficulty-hard-shield]: https://img.shields.io/badge/Hard-red.svg
 [001-problem]: https://leetcode.com/problems/two-sum
-[001-solution]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/Solutions/001%20-%20Two%20Sum/TwoSumSolution.swift
 [001-walkthrough]: https://jobear.dev/algo-hub/leetcode/001-two-sum
+[001-solution1]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/Solutions/001%20-%20Two%20Sum/TwoSumBruteForceSolution.swift
+[001-solution2]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/Solutions/001%20-%20Two%20Sum/TwoSumSolution.swift
 [002-problem]: https://leetcode.com/problems/add-two-numbers
-[002-solution]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/Solutions/002%20-%20Add%20Two%20Numbers/AddTwoNumbersSolution.swift
-[002-walkthrough]: https://jobear.dev
+[002-walkthrough]: https://jobear.dev/algo-hub/leetcode/002-add-two-numbers
+[002-solution1]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/Solutions/002%20-%20Add%20Two%20Numbers/AddTwoNumbersIterativeSolution.swift
+[002-solution2]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/Solutions/002%20-%20Add%20Two%20Numbers/AddTwoNumbersRecursiveHelperSolution.swift
+[002-solution3]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/Solutions/002%20-%20Add%20Two%20Numbers/AddTwoNumbersRecursiveSolution.swift
