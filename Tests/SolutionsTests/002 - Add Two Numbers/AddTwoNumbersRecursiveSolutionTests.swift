@@ -1,8 +1,8 @@
 //
-//  AddTwoNumbersIterativeSolution.swift
+//  AddTwoNumbersRecursiveSolutionTests.swift
 //  LeetSwift
 //
-//  Created by Jobert Sá on 02/07/2024.
+//  Created by Jobert Sá on 04/07/2024.
 //
 
 import XCTest
@@ -10,9 +10,9 @@ import XCTest
 @testable import Solutions
 @testable import TestSupport
 
-final class AddTwoNumbersIterativeSolutionTests: XCTestCase {
+final class AddTwoNumbersRecursiveSolutionTests: XCTestCase {
     
-    let solution: AddTwoNumbersDefinition = AddTwoNumbersIterativeSolution()
+    let solution: AddTwoNumbersDefinition = AddTwoNumbersRecursiveSolution()
     
     func testSolution() {
         for testData in data {
@@ -25,4 +25,4 @@ final class AddTwoNumbersIterativeSolutionTests: XCTestCase {
     }
 }
 
-extension AddTwoNumbersIterativeSolutionTests: AddTwoNumbersTestCaseProvider { }
+extension AddTwoNumbersRecursiveSolutionTests: AddTwoNumbersTestCaseProvider { }
