@@ -1,5 +1,5 @@
 //
-//  AddTwoNumbersSolutionTests.swift
+//  AddTwoNumbersIterativeSolution.swift
 //  LeetSwift
 //
 //  Created by Jobert Sá on 02/07/2024.
@@ -11,9 +11,9 @@ import XCTest
 @testable import Solutions
 @testable import TestSupport
 
-final class AddTwoNumbersSolutionTests: XCTestCase {
+final class AddTwoNumbersIterativeSolutionTests: XCTestCase {
     
-    let solution: AddTwoNumbersDefinition = AddTwoNumbersSolution()
+    let solution: AddTwoNumbersDefinition = AddTwoNumbersIterativeSolution()
     
     func testSolution() {
         for testData in data {
@@ -26,7 +26,7 @@ final class AddTwoNumbersSolutionTests: XCTestCase {
     }
 }
 
-extension AddTwoNumbersSolutionTests: TestCaseProviding {
+extension AddTwoNumbersIterativeSolutionTests: TestCaseProviding {
     
     func validateInput(_ input: (l1: ListNode?, l2: ListNode?)) -> Bool {
         // TODO: Implement validation

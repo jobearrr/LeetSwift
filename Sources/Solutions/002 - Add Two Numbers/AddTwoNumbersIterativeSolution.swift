@@ -1,5 +1,5 @@
 //
-//  AddTwoNumbersSolution.swift
+//  AddTwoNumbersIterativeSolution.swift
 //  LeetSwift
 //
 //  Created by Jobert Sá on 02/07/2024.
@@ -9,7 +9,7 @@ import Core
 import Foundation
 import Problems
 
-final class AddTwoNumbersSolution: AddTwoNumbersDefinition {
+final class AddTwoNumbersIterativeSolution: AddTwoNumbersDefinition {
     
     func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
         let dummyHead = ListNode(0)
