@@ -15,12 +15,7 @@ final class AddTwoNumbersRecursiveHelperSolution: AddTwoNumbersDefinition {
         addTwoNumbers(l1, l2, 0)
     }
     
-    private func addTwoNumbers(
-        _ l1: ListNode?,
-        _ l2: ListNode?,
-        _ carry: Int
-    ) -> ListNode? {
-        
+    private func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?, _ carry: Int) -> ListNode? {
         guard l1 != nil || l2 != nil || carry > 0 else { return nil }
 
         let sum = (l1?.val ?? 0) + (l2?.val ?? 0) + carry
