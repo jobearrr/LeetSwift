@@ -4,6 +4,9 @@ Solutions to [LeetCode](https://leetcode.com/) problems written in Swift.
 
 [![GitHub last commit][last-commit-shield]][last-commit-url]
 [![CI Status][ci-status-shield]][ci-status-url]
+[![CI Status][ci-status-shield]][ci-status-url]
+[![Maintainability][maintainability-shield]][maintainability-url]
+[![Test Coverage][coverage-shield]][coverage-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
@@ -105,6 +108,12 @@ Please aknowledge [the license](https://github.com/jobearrr/LeetSwift/blob/main/
 [last-commit-url]: https://github.com/jobearrr/LeetSwift/commits/master
 [ci-status-shield]: https://github.com/jobearrr/LeetSwift/actions/workflows/ci.yml/badge.svg
 [ci-status-url]: https://github.com/jobearrr/LeetSwift/actions/workflows/ci.yml
+
+[maintainability-shield]: https://api.codeclimate.com/v1/badges/0d1c5ec4499a5290300a/maintainability
+[maintainability-url]: https://codeclimate.com/github/jobearrr/LeetSwift/maintainability
+[coverage-shield]: https://api.codeclimate.com/v1/badges/0d1c5ec4499a5290300a/test_coverage
+[coverage-url]: https://codeclimate.com/github/jobearrr/LeetSwift/test_coverage
+
 [license-shield]: https://img.shields.io/github/license/jobearrr/LeetSwift.svg?style=flat
 [license-url]: https://github.com/jobearrr/LeetSwift/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg??style=flat&logo=linkedin&colorB=555
