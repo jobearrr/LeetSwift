@@ -4,7 +4,6 @@ Solutions to [LeetCode](https://leetcode.com/) problems written in Swift.
 
 [![GitHub last commit][last-commit-shield]][last-commit-url]
 [![CI Status][ci-status-shield]][ci-status-url]
-[![CI Status][ci-status-shield]][ci-status-url]
 [![Maintainability][maintainability-shield]][maintainability-url]
 [![Test Coverage][coverage-shield]][coverage-url]
 [![MIT License][license-shield]][license-url]
