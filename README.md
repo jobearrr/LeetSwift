@@ -127,7 +127,7 @@ Please aknowledge [the license](https://github.com/jobearrr/LeetSwift/blob/main/
 [001-problem]: https://leetcode.com/problems/two-sum
 [001-walkthrough]: https://jobear.dev/algo-hub/leetcode/001-two-sum
 [001-solution1]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/Solutions/001%20-%20Two%20Sum/TwoSumBruteForceSolution.swift
-[001-solution2]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/Solutions/001%20-%20Two%20Sum/TwoSumSolution.swift
+[001-solution2]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/Solutions/001%20-%20Two%20Sum/TwoSumHashTableSolution.swift
 [002-problem]: https://leetcode.com/problems/add-two-numbers
 [002-walkthrough]: https://jobear.dev/algo-hub/leetcode/002-add-two-numbers
 [002-solution1]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/Solutions/002%20-%20Add%20Two%20Numbers/AddTwoNumbersIterativeSolution.swift

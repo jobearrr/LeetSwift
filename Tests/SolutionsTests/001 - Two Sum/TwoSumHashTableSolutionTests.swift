@@ -1,5 +1,5 @@
 //
-//  TwoSumSolutionTests.swift
+//  TwoSumHashTableSolutionTests.swift
 //  LeetSwift
 //
 //  Created by Jobert Sá on 02/07/2024.
@@ -10,9 +10,9 @@ import XCTest
 @testable import Solutions
 @testable import TestSupport
 
-final class TwoSumSolutionTests: XCTestCase {
+final class TwoSumHashTableSolutionTests: XCTestCase {
     
-    let solution: TwoSumDefinition = TwoSumSolution()
+    let solution: TwoSumDefinition = TwoSumHashTableSolution()
     
     func testSolution() {
         for testData in data {
@@ -25,4 +25,4 @@ final class TwoSumSolutionTests: XCTestCase {
     }
 }
 
-extension TwoSumSolutionTests: TwoSumTestCaseProvider { }
+extension TwoSumHashTableSolutionTests: TwoSumTestCaseProvider { }
