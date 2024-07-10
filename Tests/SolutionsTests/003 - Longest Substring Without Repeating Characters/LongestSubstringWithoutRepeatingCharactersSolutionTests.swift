@@ -12,7 +12,7 @@ import XCTest
 
 final class LongestSubstringWithoutRepeatingCharactersSolutionTests: XCTestCase {
     
-    let solution: LongestSubstringWithoutRepeatingCharactersDefinition = LongestSubstringWithoutRepeatingCharactersSolution()
+    let solution: LongestSubstringWithoutRepeatingCharactersDefinition = LongestSubstringWithoutRepeatingCharactersBruteForceSolution()
     
     func testSolution() {
         for testData in data {
