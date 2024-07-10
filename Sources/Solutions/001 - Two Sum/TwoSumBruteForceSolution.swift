@@ -11,15 +11,13 @@ import Problems
 final class TwoSumBruteForceSolution: TwoSumDefinition {
     
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
-        var dictionary: [Int: Int] = [:]
-        
-        for (i, num) in nums.enumerated() {
-            if let item = dictionary[target - num] {
-                return [item, i]
+        for i in 0..<nums.count {
+            for j in (i + 1)..<nums.count {
+                if nums[i] + nums[j] == target {
+                    return [i, j]
+                }
             }
-            dictionary[num] = i
         }
-        
         return []
     }
 }
