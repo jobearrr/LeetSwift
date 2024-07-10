@@ -16,10 +16,10 @@ Solutions to [LeetCode](https://leetcode.com/) problems written in Swift.
 
 ## Running the solutions
 
-Each solution has a test cases that can be found in the [SolutionsTests][solutions-tests-folder] folder.  
+Each solution has test cases that can be found in the [SolutionsTests][solutions-tests-folder] folder.  
 So it should have 100% code coverage for obvious reasons. 😬
 
-You can modify the test cases, provide new inputs and expected outputs.
+You can modify the test cases, and provide new inputs and expected outputs.
 
 Or you can run the companion app `LeetSwift` (🚧 under construction 👷), to browse and run the test cases of the solutions for the problems you would like to check.
 
@@ -68,17 +68,19 @@ Please pay attention to this if adding problems and implementing solutions, so e
 
 ## Problems
 
-Below there is a table with all the problems with their corresponding solution.
+Below, you can find a table with all the problems with their corresponding solution.
 
-You can find the walkthrough with detailed solution of all the problems on my blog [jobear.dev][jobear-algo-url], or concrete problem solution walkthrough on the `Walkthrough` column (🚧 Under construction 👷).
+You can find the walkthrough with detailed solutions to all the problems on my blog [jobear.dev][jobear-algo-url], or concrete problem solution walkthrough on the `Walkthrough` column (🚧 Under construction 👷).
 
 | # | Reference | Topics | Difficulty | Walkthrough | Solutions | Time | Space | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [Two Sum][001-problem] | **`A`** **`HT`** | ![Difficulty][difficulty-easy-shield] | [Walkthrough][001-walkthrough] | [Solution 1][001-solution1] | `O(n²)` | `O(1)` | Brute force |
-| 1 | - | - | - | - | [Solution 2][001-solution2] | `O(n)` | `O(n)` | "Decent" |
+| 1 | - | - | - | - | [Solution 2][001-solution2] | `O(n)` | `O(n)` | Hash Table |
 | 2 | [Add Two Numbers][002-problem] | **`LL`** **`M`** **`R`** | ![Difficulty][difficulty-medium-shield] | [Walkthrough][002-walkthrough] | [Solution 1][002-solution1] | `O(max(m, n))` | `O(1)` | Iterative |
 | 2 | - | - | - | - | [Solution 2][002-solution2] | `O(max(m, n))` | `O(1)` | Recursive |
 | 2 | - | - | - | - | [Solution 3][002-solution3] | `O(min(m, n))` | `O(1)` | Slightly better |
+| 3 | [Longest Substring Without Repeating Characters][003-problem] | **`HT`** **`S`** **`SW`** | ![Difficulty][difficulty-medium-shield] | [Walkthrough][003-walkthrough] | [Solution 1][003-solution1] | `O(n³)` | `O(min(n, m))` | Brute force |
+| 3 | - | - | - | - | [Solution 3][003-solution2] | `O(n)` | `O(min(n, m))` | Sliding Window / Hash Table |
 
 ### Topics
 - **`A`** : Array
@@ -86,21 +88,23 @@ You can find the walkthrough with detailed solution of all the problems on my bl
 - **`LL`**: Linked List
 - **`M`**: Math
 - **`R`**: Recursion
+- **`S`**: String
+- **`SW`**: Sliding Window
 
 ## TDD Approach
 Here, I use the TDD approach, writing the test cases before writing the solution. This way, I can quickly verify if the solution works as expected.
 
-The goal is to always have enough test cases for all the problems and then work on the solution until all of these test cases are green.
+The goal is always to have enough test cases for all the problems and then work on the solution until all of these test cases are green.
 
 If you would like to contribute, please use this same approach.
 
 ## License
 
-Please note this project uses GNU AGPLv3 license, which requires any code or software that uses it to be made their code also completely available.
+Please note this project uses the GNU AGPLv3 license, which requires any code or software that uses it to make their code completely available.
 
 This project is intended to be used for educational purposes only.
 
-Please aknowledge [the license](https://github.com/jobearrr/LeetSwift/blob/main/LICENSE) and reach out to me if you intend to use any content from here.
+Please acknowledge [the license](https://github.com/jobearrr/LeetSwift/blob/main/LICENSE) and contact me if you intend to use any content from here.
 
 <!-- Markdown references https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [last-commit-shield]: https://img.shields.io/github/last-commit/jobearrr/LeetSwift?style=flat
@@ -133,3 +137,7 @@ Please aknowledge [the license](https://github.com/jobearrr/LeetSwift/blob/main/
 [002-solution1]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/Solutions/002%20-%20Add%20Two%20Numbers/AddTwoNumbersIterativeSolution.swift
 [002-solution2]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/Solutions/002%20-%20Add%20Two%20Numbers/AddTwoNumbersRecursiveHelperSolution.swift
 [002-solution3]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/Solutions/002%20-%20Add%20Two%20Numbers/AddTwoNumbersRecursiveSolution.swift
+[003-problem]: https://leetcode.com/problems/longest-substring-without-repeating-characters
+[003-walkthrough]: https://jobear.dev/algo-hub
+[003-solution1]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/Solutions/003%20-%20Longest%20Substring%20Without%20Repeating%20Characters/LongestSubstringWithoutRepeatingCharactersBruteForceSolution.swift
+[003-solution2]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/Solutions/003%20-%20Longest%20Substring%20Without%20Repeating%20Characters/LongestSubstringWithoutRepeatingCharactersSlidingWindowSolution.swift
