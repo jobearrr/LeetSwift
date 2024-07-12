@@ -82,6 +82,7 @@ You can find the walkthrough with detailed solutions to all the problems on my b
 | 3 | [Longest Substring Without Repeating Characters][003-problem] | **`HT`** **`S`** **`SW`** | ![Difficulty][difficulty-medium-shield] | [Walkthrough][003-walkthrough] | [Solution 1][003-solution1] | `O(n³)` | `O(min(n, m))` | Brute force |
 | 3 | - | - | - | - | [Solution 3][003-solution2] | `O(n)` | `O(min(n, m))` | Sliding Window / Hash Table |
 | 4 | [Median of Two Sorted Arrays][004-problem] | **`A`** **`BS`** **`DC`** | ![Difficulty][difficulty-hard-shield] | [Walkthrough][004-walkthrough] | | | | |
+| 5 | [Longest Palindromic Substring][005-problem] | **`TP`** **`S`** **`DP`** | ![Difficulty][difficulty-medium-shield] | [Walkthrough][005-walkthrough] | | | | |
 
 ### Topics
 - **`A`** : Array
@@ -93,6 +94,8 @@ You can find the walkthrough with detailed solutions to all the problems on my b
 - **`SW`**: Sliding Window
 - **`BS`**: Binary Search
 - **`DC`**: Divide and Conquer
+- **`TP`**: Two Pointers
+- **`DP`**: Dynamic Programming
 
 ## TDD Approach
 Here, I use the TDD approach, writing the test cases before writing the solution. This way, I can quickly verify if the solution works as expected.
@@ -146,3 +149,5 @@ Please acknowledge [the license](https://github.com/jobearrr/LeetSwift/blob/main
 [003-solution2]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/Solutions/003%20-%20Longest%20Substring%20Without%20Repeating%20Characters/LongestSubstringWithoutRepeatingCharactersSlidingWindowSolution.swift
 [004-problem]: https://leetcode.com/problems/median-of-two-sorted-arrays
 [004-walkthrough]: https://jobear.dev/algo-hub
+[005-problem]: https://leetcode.com/problems/longest-palindromic-substring
+[005-walkthrough]: https://jobear.dev/algo-hub
