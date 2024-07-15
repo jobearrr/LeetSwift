@@ -11,12 +11,12 @@
 protocol AddTwoNumbersTestCaseProvider: TestCaseProviding { }
 
 extension AddTwoNumbersTestCaseProvider {
-    
+
     func validateInput(_ input: (l1: ListNode?, l2: ListNode?)) -> Bool {
         // TODO: Implement validation
         true
     }
-    
+
     var data: [TestData<(l1: ListNode?, l2: ListNode?), ListNode?>] { [
         TestData(
             input: ([2, 4, 3].listNode, [5, 6, 4].listNode),

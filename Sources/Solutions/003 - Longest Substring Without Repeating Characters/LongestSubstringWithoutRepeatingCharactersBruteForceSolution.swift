@@ -10,11 +10,11 @@ import Foundation
 import Problems
 
 final class LongestSubstringWithoutRepeatingCharactersBruteForceSolution: LongestSubstringWithoutRepeatingCharactersDefinition {
-    
+
     func lengthOfLongestSubstring(_ s: String) -> Int {
         let chars = Array(s)
         var maxLength = 0
-        
+
         for i in 0..<chars.count {
             var seen = Set<Character>()
             for j in i..<chars.count {
@@ -25,7 +25,7 @@ final class LongestSubstringWithoutRepeatingCharactersBruteForceSolution: Longes
                 maxLength = max(maxLength, j - i + 1)
             }
         }
-        
+
         return maxLength
     }
 }

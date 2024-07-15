@@ -9,7 +9,7 @@ import Foundation
 import Problems
 
 final class TwoSumBruteForceSolution: TwoSumDefinition {
-    
+
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
         for i in 0..<nums.count {
             for j in (i + 1)..<nums.count {

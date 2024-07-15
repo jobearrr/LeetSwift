@@ -10,11 +10,11 @@ import Foundation
 import Problems
 
 final class AddTwoNumbersRecursiveHelperSolution: AddTwoNumbersDefinition {
-    
+
     func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
         addTwoNumbers(l1, l2, 0)
     }
-    
+
     private func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?, _ carry: Int) -> ListNode? {
         guard l1 != nil || l2 != nil || carry > 0 else { return nil }
 

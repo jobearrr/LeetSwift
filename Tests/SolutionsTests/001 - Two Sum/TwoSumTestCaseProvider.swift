@@ -11,7 +11,7 @@
 protocol TwoSumTestCaseProvider: TestCaseProviding { }
 
 extension TwoSumTestCaseProvider {
-    
+
     func validateInput(_ input: (nums: [Int], target: Int)) -> Bool {
         // TODO: Complete validation
         input.nums.count >= 2 &&
@@ -19,7 +19,7 @@ extension TwoSumTestCaseProvider {
         input.target >= -1_000_000_000 &&
         input.target <= 1_000_000_000
     }
-    
+
     var data: [TestData<(nums: [Int], target: Int), [Int]>] { [
         TestData(
             input: ([2, 7, 11, 15], 9),

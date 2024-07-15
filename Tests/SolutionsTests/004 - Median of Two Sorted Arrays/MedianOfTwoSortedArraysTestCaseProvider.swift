@@ -11,12 +11,12 @@
 protocol MedianOfTwoSortedArraysTestCaseProvider: TestCaseProviding { }
 
 extension MedianOfTwoSortedArraysTestCaseProvider {
-    
+
     func validateInput(_ input: (l1: ListNode?, l2: ListNode?)) -> Bool {
         // TODO: Implement validation
         true
     }
-    
+
     var data: [TestData<(nums1: [Int], nums2: [Int]), Double>] { [
         TestData(
             input: ([1, 3], [2]),

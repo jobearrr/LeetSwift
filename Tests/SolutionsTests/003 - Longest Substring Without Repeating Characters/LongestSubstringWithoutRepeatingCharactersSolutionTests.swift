@@ -11,15 +11,15 @@ import XCTest
 @testable import TestSupport
 
 final class LongestSubstringWithoutRepeatingCharactersSolutionTests: XCTestCase {
-    
+
     let solution: LongestSubstringWithoutRepeatingCharactersDefinition = LongestSubstringWithoutRepeatingCharactersBruteForceSolution()
-    
+
     func testSolution() {
         for testData in data {
             let input = testData.input
-            
+
             let output = solution.lengthOfLongestSubstring(input)
-            
+
             XCTAssertEqual(output, testData.expectedOutput)
         }
     }

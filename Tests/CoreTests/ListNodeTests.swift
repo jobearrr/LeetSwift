@@ -9,7 +9,7 @@ import XCTest
 @testable import Core
 
 class ListNodeTests: XCTestCase {
-    
+
     func testListNodeEqual() {
         let node1 = ListNode(1, ListNode(2, ListNode(3)))
         let node2 = ListNode(1, ListNode(2, ListNode(3)))

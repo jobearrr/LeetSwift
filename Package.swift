@@ -22,7 +22,7 @@ let package = Package(
             targets: ["Solutions"]),
         .library(
             name: "TestSupport",
-            targets: ["TestSupport"]),
+            targets: ["TestSupport"])
     ],
     targets: [
         .target(name: "Core"),

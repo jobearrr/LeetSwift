@@ -11,12 +11,12 @@
 protocol LongestSubstringWithoutRepeatingCharactersTestCaseProvider: TestCaseProviding { }
 
 extension LongestSubstringWithoutRepeatingCharactersTestCaseProvider {
-    
+
     func validateInput(_ s: String) -> Bool {
         // TODO: Implement validation
         true
     }
-    
+
     var data: [TestData<String, Int>] { [
         TestData(
             input: "abcabcbb",
