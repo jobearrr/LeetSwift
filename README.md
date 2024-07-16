@@ -72,17 +72,19 @@ Below, you can find a table with all the problems with their corresponding solut
 
 You can find the walkthrough with detailed solutions to all the problems on my blog [jobear.dev][jobear-algo-url], or concrete problem solution walkthrough on the `Walkthrough` column (🚧 Under construction 👷).
 
-| # | Reference | Topics | Difficulty | Walkthrough | Solutions | Time | Space | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | [Two Sum][001-problem] | **`A`** **`HT`** | ![Difficulty][difficulty-easy-shield] | [Walkthrough][001-walkthrough] | [Solution 1][001-solution1] | `O(n²)` | `O(1)` | Brute force |
-| 1 | - | - | - | - | [Solution 2][001-solution2] | `O(n)` | `O(n)` | Hash Table |
-| 2 | [Add Two Numbers][002-problem] | **`LL`** **`M`** **`R`** | ![Difficulty][difficulty-medium-shield] | [Walkthrough][002-walkthrough] | [Solution 1][002-solution1] | `O(max(m, n))` | `O(1)` | Iterative |
-| 2 | - | - | - | - | [Solution 2][002-solution2] | `O(max(m, n))` | `O(1)` | Recursive |
-| 2 | - | - | - | - | [Solution 3][002-solution3] | `O(min(m, n))` | `O(1)` | Slightly better |
-| 3 | [Longest Substring Without Repeating Characters][003-problem] | **`HT`** **`S`** **`SW`** | ![Difficulty][difficulty-medium-shield] | [Walkthrough][003-walkthrough] | [Solution 1][003-solution1] | `O(n³)` | `O(min(n, m))` | Brute force |
-| 3 | - | - | - | - | [Solution 3][003-solution2] | `O(n)` | `O(min(n, m))` | Sliding Window / Hash Table |
-| 4 | [Median of Two Sorted Arrays][004-problem] | **`A`** **`BS`** **`DC`** | ![Difficulty][difficulty-hard-shield] | [Walkthrough][004-walkthrough] | | | | |
-| 5 | [Longest Palindromic Substring][005-problem] | **`TP`** **`S`** **`DP`** | ![Difficulty][difficulty-medium-shield] | [Walkthrough][005-walkthrough] | | | | |
+| # | Reference | Topics | Difficulty | Walkthrough | Solutions | Time | Space |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | [Two Sum][001-problem] | **`A`** **`HT`** | ![Difficulty][difficulty-easy-shield] | [Walkthrough][001-walkthrough] | [Brute Force][001-solution1] | `O(n²)` | `O(1)` |
+| 1 | - | - | - | - | [Hash Table][001-solution2] | `O(n)` | `O(n)` |
+| 2 | [Add Two Numbers][002-problem] | **`LL`** **`M`** **`R`** | ![Difficulty][difficulty-medium-shield] | [Walkthrough][002-walkthrough] | [Iterative][002-solution1] | `O(max(m, n))` | `O(1)` |
+| 2 | - | - | - | - | [Recursive 1][002-solution2] | `O(max(m, n))` | `O(1)` |
+| 2 | - | - | - | - | [Recursive 2][002-solution3] | `O(min(m, n))` | `O(1)` |
+| 3 | [Longest Substring Without Repeating Characters][003-problem] | **`HT`** **`S`** **`SW`** | ![Difficulty][difficulty-medium-shield] | [Walkthrough][003-walkthrough] | [Brute Force][003-solution1] | `O(n³)` | `O(min(n, m))` |
+| 3 | - | - | - | - | [Hash Table][003-solution2] | `O(n)` | `O(min(n, m))` |
+| 4 | [Median of Two Sorted Arrays][004-problem] | **`A`** **`BS`** **`DC`** | ![Difficulty][difficulty-hard-shield] | | | | |
+| 5 | [Longest Palindromic Substring][005-problem] | **`TP`** **`S`** **`DP`** | ![Difficulty][difficulty-medium-shield] | | | | |
+| 6 | [Zigzag Conversion][006-problem] | **`S`** | ![Difficulty][difficulty-medium-shield] | | | | |
+| 7 | [Reverse Integer][007-problem] | **`M`** | ![Difficulty][difficulty-medium-shield] | | | | |
 
 ### Topics
 - **`A`** : Array
@@ -151,3 +153,7 @@ Please acknowledge [the license](https://github.com/jobearrr/LeetSwift/blob/main
 [004-walkthrough]: https://jobear.dev/algo-hub
 [005-problem]: https://leetcode.com/problems/longest-palindromic-substring
 [005-walkthrough]: https://jobear.dev/algo-hub
+[006-problem]: https://leetcode.com/problems/zigzag-conversion
+[006-walkthrough]: https://jobear.dev/algo-hub
+[007-problem]: https://leetcode.com/problems/reverse-integer
+[007-walkthrough]: https://jobear.dev/algo-hub
