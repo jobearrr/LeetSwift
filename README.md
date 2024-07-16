@@ -76,11 +76,11 @@ You can find the walkthrough with detailed solutions to all the problems on my b
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [Two Sum][001-problem] | **`A`** **`HT`** | ![Difficulty][difficulty-easy-shield] | [Walkthrough][001-walkthrough] | [Brute Force][001-solution1] | `O(n²)` | `O(1)` |
 | 1 | - | - | - | - | [Hash Table][001-solution2] | `O(n)` | `O(n)` |
-| 2 | [Add Two Numbers][002-problem] | **`LL`** **`M`** **`R`** | ![Difficulty][difficulty-medium-shield] | [Walkthrough][002-walkthrough] | [Iterative][002-solution1] | `O(max(m, n))` | `O(1)` |
-| 2 | - | - | - | - | [Recursive1][002-solution2] | `O(max(m, n))` | `O(1)` |
-| 2 | - | - | - | - | [Recursive2][002-solution3] | `O(min(m, n))` | `O(1)` |
-| 3 | [Longest Substring Without Repeating Characters][003-problem] | **`HT`** **`S`** **`SW`** | ![Difficulty][difficulty-medium-shield] | [Walkthrough][003-walkthrough] | [Brute Force][003-solution1] | `O(n³)` | `O(min(n, m))` |
-| 3 | - | - | - | - | [Hash Table][003-solution2] | `O(n)` | `O(min(n, m))` |
+| 2 | [Add Two Numbers][002-problem] | **`LL`** **`M`** **`R`** | ![Difficulty][difficulty-medium-shield] | [Walkthrough][002-walkthrough] | [Iterative][002-solution1] | `O(max(m,n))` | `O(1)` |
+| 2 | - | - | - | - | [Recursive1][002-solution2] | `O(max(m,n))` | `O(1)` |
+| 2 | - | - | - | - | [Recursive2][002-solution3] | `O(min(m,n))` | `O(1)` |
+| 3 | [Longest Substring Without Repeating Characters][003-problem] | **`HT`** **`S`** **`SW`** | ![Difficulty][difficulty-medium-shield] | [Walkthrough][003-walkthrough] | [Brute Force][003-solution1] | `O(n³)` | `O(min(m,n))` |
+| 3 | - | - | - | - | [Hash Table][003-solution2] | `O(n)` | `O(min(m,n))` |
 | 4 | [Median of Two Sorted Arrays][004-problem] | **`A`** **`BS`** **`DC`** | ![Difficulty][difficulty-hard-shield] | | | | |
 | 5 | [Longest Palindromic Substring][005-problem] | **`TP`** **`S`** **`DP`** | ![Difficulty][difficulty-medium-shield] | | | | |
 | 6 | [Zigzag Conversion][006-problem] | **`S`** | ![Difficulty][difficulty-medium-shield] | | | | |
