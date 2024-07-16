@@ -126,34 +126,42 @@ Please acknowledge [the license](https://github.com/jobearrr/LeetSwift/blob/main
 [coverage-url]: https://codeclimate.com/github/jobearrr/LeetSwift/test_coverage
 
 [license-shield]: https://img.shields.io/github/license/jobearrr/LeetSwift.svg?style=flat
-[license-url]: https://github.com/jobearrr/LeetSwift/LICENSE
+[license-url]: https://github.com/jobearrr/LeetSwift?tab=AGPL-3.0-1-ov-file#readme
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg??style=flat&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/jobertsa
 [jobear-blog-url]: https://jobear.dev
 [jobear-algo-url]: https://jobear.dev/algo-hub/
+
 [solutions-tests-folder]: https://github.com/jobearrr/LeetSwift/tree/main/Tests/SolutionsTests
-[license-url]: https://github.com/jobearrr/LeetSwift?tab=AGPL-3.0-1-ov-file#readme
+
 [difficulty-easy-shield]: https://img.shields.io/badge/Easy-brightgreen.svg
 [difficulty-medium-shield]: https://img.shields.io/badge/Medium-orange.svg
 [difficulty-hard-shield]: https://img.shields.io/badge/Hard-red.svg
+
 [001-problem]: https://leetcode.com/problems/two-sum
 [001-walkthrough]: https://jobear.dev/algo-hub/leetcode/001-two-sum
 [001-solution1]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/Solutions/001%20-%20Two%20Sum/TwoSumBruteForceSolution.swift
 [001-solution2]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/Solutions/001%20-%20Two%20Sum/TwoSumHashTableSolution.swift
+
 [002-problem]: https://leetcode.com/problems/add-two-numbers
 [002-walkthrough]: https://jobear.dev/algo-hub/leetcode/002-add-two-numbers
 [002-solution1]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/Solutions/002%20-%20Add%20Two%20Numbers/AddTwoNumbersIterativeSolution.swift
 [002-solution2]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/Solutions/002%20-%20Add%20Two%20Numbers/AddTwoNumbersRecursiveHelperSolution.swift
 [002-solution3]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/Solutions/002%20-%20Add%20Two%20Numbers/AddTwoNumbersRecursiveSolution.swift
+
 [003-problem]: https://leetcode.com/problems/longest-substring-without-repeating-characters
 [003-walkthrough]: https://jobear.dev/algo-hub
 [003-solution1]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/Solutions/003%20-%20Longest%20Substring%20Without%20Repeating%20Characters/LongestSubstringWithoutRepeatingCharactersBruteForceSolution.swift
 [003-solution2]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/Solutions/003%20-%20Longest%20Substring%20Without%20Repeating%20Characters/LongestSubstringWithoutRepeatingCharactersSlidingWindowSolution.swift
+
 [004-problem]: https://leetcode.com/problems/median-of-two-sorted-arrays
 [004-walkthrough]: https://jobear.dev/algo-hub
+
 [005-problem]: https://leetcode.com/problems/longest-palindromic-substring
 [005-walkthrough]: https://jobear.dev/algo-hub
+
 [006-problem]: https://leetcode.com/problems/zigzag-conversion
 [006-walkthrough]: https://jobear.dev/algo-hub
+
 [007-problem]: https://leetcode.com/problems/reverse-integer
 [007-walkthrough]: https://jobear.dev/algo-hub
