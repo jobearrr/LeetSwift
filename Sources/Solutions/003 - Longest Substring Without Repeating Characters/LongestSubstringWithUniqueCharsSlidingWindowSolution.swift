@@ -17,8 +17,8 @@ final class LongestSubstringWithUniqueCharsSlidingWindowSolution: LongestSubstri
         var start = 0
 
         for (i, char) in s.enumerated() {
-            if let lastIndex = indexMap[char], lastIndex >= start {
-                start = lastIndex + 1
+            if let index = indexMap[char], index >= start {
+                start = index + 1
             }
             indexMap[char] = i
             maxLength = max(maxLength, i - start + 1)

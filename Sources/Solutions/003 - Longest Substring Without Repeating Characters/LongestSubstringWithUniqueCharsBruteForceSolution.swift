@@ -16,14 +16,14 @@ final class LongestSubstringWithUniqueCharsBruteForceSolution: LongestSubstringW
         var maxLength = 0
 
         for i in 0..<chars.count {
-            var seen = Set<Character>()
+            var seenChars = Set<Character>()
             for j in i..<chars.count {
-                if seen.contains(chars[j]) {
+                if seenChars.contains(chars[j]) {
                     break
                 }
-                seen.insert(chars[j])
-                maxLength = max(maxLength, j - i + 1)
+                seenChars.insert(chars[j])
             }
+            maxLength = max(maxLength, seenChars.count)
         }
 
         return maxLength
