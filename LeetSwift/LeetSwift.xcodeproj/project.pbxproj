@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F917BA9C2C33F9DE000B7172 /* LeetSwiftCore in Frameworks */ = {isa = PBXBuildFile; productRef = F917BA9B2C33F9DE000B7172 /* LeetSwiftCore */; };
 		F9674FE32C33F5F0001EF658 /* LeetSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9674FE22C33F5F0001EF658 /* LeetSwiftApp.swift */; };
 		F9674FE52C33F5F0001EF658 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9674FE42C33F5F0001EF658 /* ContentView.swift */; };
 		F9674FE72C33F5F0001EF658 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9674FE62C33F5F0001EF658 /* Assets.xcassets */; };
@@ -54,7 +53,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F917BA9C2C33F9DE000B7172 /* LeetSwiftCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,7 +156,6 @@
 			);
 			name = LeetSwift;
 			packageProductDependencies = (
-				F917BA9B2C33F9DE000B7172 /* LeetSwiftCore */,
 			);
 			productName = LeetSwift;
 			productReference = F9674FDF2C33F5F0001EF658 /* LeetSwift.app */;
@@ -624,13 +621,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		F917BA9B2C33F9DE000B7172 /* LeetSwiftCore */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = LeetSwiftCore;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F9674FD72C33F5F0001EF658 /* Project object */;
 }
