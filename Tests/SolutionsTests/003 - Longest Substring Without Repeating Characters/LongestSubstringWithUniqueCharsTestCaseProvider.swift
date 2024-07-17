@@ -1,5 +1,5 @@
 //
-//  LongestSubstringWithoutRepeatingCharactersTestCaseProvider.swift
+//  LongestSubstringWithUniqueCharsTestCaseProvider.swift
 //  LeetSwift
 //
 //  Created by Jobert on 10/07/2024.
@@ -8,9 +8,9 @@
 @testable import Core
 @testable import TestSupport
 
-protocol LongestSubstringWithoutRepeatingCharactersTestCaseProvider: TestCaseProviding { }
+protocol LongestSubstringWithUniqueCharsTestCaseProvider: TestCaseProviding { }
 
-extension LongestSubstringWithoutRepeatingCharactersTestCaseProvider {
+extension LongestSubstringWithUniqueCharsTestCaseProvider {
 
     func validateInput(_ s: String) -> Bool {
         // TODO: Implement validation

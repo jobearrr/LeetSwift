@@ -1,5 +1,5 @@
 //
-//  LongestSubstringWithoutRepeatingCharactersBruteForceSolution.swift
+//  LongestSubstringWithUniqueCharsBruteForceSolution.swift
 //  LeetSwift
 //
 //  Created by Jobert on 10/07/2024.
@@ -9,7 +9,7 @@ import Core
 import Foundation
 import Problems
 
-final class LongestSubstringWithoutRepeatingCharactersBruteForceSolution: LongestSubstringWithoutRepeatingCharactersDefinition {
+final class LongestSubstringWithUniqueCharsBruteForceSolution: LongestSubstringWithUniqueCharsDefinition {
 
     func lengthOfLongestSubstring(_ s: String) -> Int {
         let chars = Array(s)

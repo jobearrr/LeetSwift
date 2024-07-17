@@ -1,5 +1,5 @@
 //
-//  LongestSubstringWithoutRepeatingCharactersSlidingWindowSolution.swift
+//  LongestSubstringWithUniqueCharsSlidingWindowSolution.swift
 //  LeetSwift
 //
 //  Created by Jobert on 10/07/2024.
@@ -9,7 +9,7 @@ import Core
 import Foundation
 import Problems
 
-final class LongestSubstringWithoutRepeatingCharactersSlidingWindowSolution: LongestSubstringWithoutRepeatingCharactersDefinition {
+final class LongestSubstringWithUniqueCharsSlidingWindowSolution: LongestSubstringWithUniqueCharsDefinition {
 
     func lengthOfLongestSubstring(_ s: String) -> Int {
         var indexMap = [Character: Int]()
