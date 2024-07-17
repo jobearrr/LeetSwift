@@ -11,7 +11,7 @@ Solutions to [LeetCode](https://leetcode.com/) problems written in Swift.
 
 ## Requirements
 
-* Xcode 15+
+* Xcode 15.2+
 * Swift 5.9
 
 ## Running the solutions
