@@ -6,10 +6,14 @@ on:
   pull_request:
     branches: [ "main" ]
 
+concurrency:
+  group: "Main"
+
 jobs:
-  build:
+  test-and-gather-test-coverage:
 
     runs-on: macos-13
+    timeout-minutes: 30
 
     steps:
     - uses: actions/checkout@v4
