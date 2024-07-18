@@ -17,7 +17,8 @@ Solutions to [LeetCode](https://leetcode.com/) problems written in Swift.
 ## Running the solutions
 
 Each solution has test cases that can be found in the [SolutionsTests][solutions-tests-folder] folder.  
-So it should have 100% code coverage for obvious reasons. 😬
+The test cases should cover 100% of the code for the solutions.  
+Currently, the whole project does not have yet 100% code coverage as I am in the process of adding all the tests, and some problems were added but not solved yet. I'm working on them! 😬
 
 You can modify the test cases, and provide new inputs and expected outputs.
 
