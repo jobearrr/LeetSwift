@@ -12,7 +12,7 @@ protocol MedianOfTwoSortedArraysTestCaseProvider: TestCaseProviding { }
 
 extension MedianOfTwoSortedArraysTestCaseProvider {
 
-    func validateInput(_ input: (l1: ListNode?, l2: ListNode?)) -> Bool {
+    func validateInput(_ input: (nums1: [Int], nums2: [Int])) -> Bool {
         // TODO: Implement validation
         true
     }
