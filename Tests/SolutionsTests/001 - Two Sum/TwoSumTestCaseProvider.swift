@@ -22,6 +22,10 @@ extension TwoSumTestCaseProvider {
 
     var data: [TestData<(nums: [Int], target: Int), [Int]>] { [
         TestData(
+            input: ([], 0),
+            expectedOutput: []
+        ),
+        TestData(
             input: ([2, 7, 11, 15], 9),
             expectedOutput: [0, 1]
         ),
