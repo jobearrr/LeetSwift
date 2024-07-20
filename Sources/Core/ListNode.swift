@@ -12,10 +12,6 @@ public class ListNode {
     public var val: Int
     public var next: ListNode?
 
-    public init() {
-        val = 0
-    }
-
     public init(_ val: Int) {
         self.val = val
     }
