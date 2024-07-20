@@ -43,6 +43,6 @@ final class MedianOfTwoSortedArraysBinarySearchSolution: MedianOfTwoSortedArrays
             }
         }
         
-        return 0.0 // Invalid input case
+        return 0.0
     }
 }
