@@ -13,9 +13,9 @@ final class MedianOfTwoSortedArraysMergeSolution: MedianOfTwoSortedArraysDefinit
 
     func findMedianSortedArrays(_ nums1: [Int], _ nums2: [Int]) -> Double {
         let mergedArray = (nums1 + nums2).sorted()
-        
+
         let mid = mergedArray.count / 2
-        
+
         if mergedArray.count % 2 == 1 {
             return Double(mergedArray[mid])
         }
