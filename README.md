@@ -85,6 +85,7 @@ You can find the walkthrough with detailed solutions to all the problems on my b
 | 3 | - | - | - | - | [Optimized Sliding Window][003-solution3] | `O(n)` | `O(1)` |
 | 4 | [Median of Two Sorted Arrays][004-problem] | **`A`** **`BS`** **`DC`** | ![Difficulty][difficulty-hard-shield] | | [Merge Arrays][004-solution1] | `O((m+n)log(m+n))` | `O(m+n)` |
 | 4 | - | - | - | - | [Two-Pointer][004-solution2] | `O(m+n)` | `O(1)` |
+| 4 | - | - | - | - | [Binary Search][004-solution3] | `O(log(min(m, n)))` | `O(1)` |
 | 5 | [Longest Palindromic Substring][005-problem] | **`TP`** **`S`** **`DP`** | ![Difficulty][difficulty-medium-shield] | | | | |
 | 6 | [Zigzag Conversion][006-problem] | **`S`** | ![Difficulty][difficulty-medium-shield] | | | | |
 | 7 | [Reverse Integer][007-problem] | **`M`** | ![Difficulty][difficulty-medium-shield] | | | | |
@@ -162,6 +163,7 @@ Please acknowledge [the license](https://github.com/jobearrr/LeetSwift/blob/main
 [004-walkthrough]: https://jobear.dev/algo-hub
 [004-solution1]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/Solutions/004%20-%20Median%20of%20Two%20Sorted%20Arrays/MedianOfTwoSortedArraysMergeSolution.swift
 [004-solution2]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/Solutions/004%20-%20Median%20of%20Two%20Sorted%20Arrays/MedianOfTwoSortedArraysTwoPointerSolution.swift
+[004-solution3]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/Solutions/004%20-%20Median%20of%20Two%20Sorted%20Arrays/MedianOfTwoSortedArraysBinarySearchSolution.swift
 
 [005-problem]: https://leetcode.com/problems/longest-palindromic-substring
 [005-walkthrough]: https://jobear.dev/algo-hub
