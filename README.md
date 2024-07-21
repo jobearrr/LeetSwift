@@ -86,7 +86,7 @@ You can find the walkthrough with detailed solutions to all the problems on my b
 | 4 | [Median of Two Sorted Arrays][004-problem] | **`A`** **`BS`** **`DC`** | ![Difficulty][difficulty-hard-shield] | | [Merge Arrays][004-solution1] | `O((m+n)log(m+n))` | `O(m+n)` |
 | 4 | - | - | - | - | [Two-Pointer][004-solution2] | `O(m+n)` | `O(1)` |
 | 4 | - | - | - | - | [Binary Search][004-solution3] | `O(log(min(m, n)))` | `O(1)` |
-| 5 | [Longest Palindromic Substring][005-problem] | **`TP`** **`S`** **`DP`** | ![Difficulty][difficulty-medium-shield] | | | | |
+| 5 | [Longest Palindromic Substring][005-problem] | **`TP`** **`S`** **`DP`** | ![Difficulty][difficulty-medium-shield] | | [Expand Around Center][005-solution1] | `O(n²)` | `O(n²)` |
 | 6 | [Zigzag Conversion][006-problem] | **`S`** | ![Difficulty][difficulty-medium-shield] | | | | |
 | 7 | [Reverse Integer][007-problem] | **`M`** | ![Difficulty][difficulty-medium-shield] | | | | |
 
@@ -167,6 +167,7 @@ Please acknowledge [the license](https://github.com/jobearrr/LeetSwift/blob/main
 
 [005-problem]: https://leetcode.com/problems/longest-palindromic-substring
 [005-walkthrough]: https://jobear.dev/algo-hub
+[005-solution1]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/Solutions/005%20-%20Longest%20Palindromic%20Substring/LongestPalindromicSubstringExpandAroundCenterSolution.swift
 
 [006-problem]: https://leetcode.com/problems/zigzag-conversion
 [006-walkthrough]: https://jobear.dev/algo-hub
