@@ -20,7 +20,7 @@ extension LongestPalindromicSubstringTestCaseProvider {
     var data: [TestData<String, String>] { [
         TestData(
             input: "babad",
-            expectedOutput: "bab"
+            expectedOutput: "aba"
         ),
         TestData(
             input: "cbbd",
