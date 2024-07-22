@@ -142,35 +142,35 @@ Please acknowledge [the license](https://github.com/jobearrr/LeetSwift/blob/main
 
 [001-problem]: https://leetcode.com/problems/two-sum
 [001-walkthrough]: https://jobear.dev/algo-hub/leetcode/001-two-sum
-[001-solution1]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/Solutions/001%20-%20Two%20Sum/TwoSumBruteForceSolution.swift
-[001-solution2]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/Solutions/001%20-%20Two%20Sum/TwoSumHashTableSolution.swift
+[001-solution1]: /Sources/Solutions/001%20-%20Two%20Sum/Problem001BruteForceSolution.swift
+[001-solution2]: /Sources/Solutions/001%20-%20Two%20Sum/Problem001HashTableSolution.swift
 
 [002-problem]: https://leetcode.com/problems/add-two-numbers
 [002-walkthrough]: https://jobear.dev/algo-hub/leetcode/002-add-two-numbers
-[002-solution1]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/Solutions/002%20-%20Add%20Two%20Numbers/AddTwoNumbersIterativeSolution.swift
-[002-solution2]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/Solutions/002%20-%20Add%20Two%20Numbers/AddTwoNumbersRecursiveHelperSolution.swift
-[002-solution3]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/Solutions/002%20-%20Add%20Two%20Numbers/AddTwoNumbersRecursiveSolution.swift
+[002-solution1]: /Sources/Solutions/002%20-%20Add%20Two%20Numbers/Problem002IterativeSolution.swift
+[002-solution2]: /Sources/Solutions/002%20-%20Add%20Two%20Numbers/Problem002RecursiveHelperSolution.swift
+[002-solution3]: /Sources/Solutions/002%20-%20Add%20Two%20Numbers/Problem002RecursiveSolution.swift
 
 [003-problem]: https://leetcode.com/problems/longest-substring-without-repeating-characters
 [003-walkthrough]: https://jobear.dev/algo-hub/leetcode/003-longest-substring-without-repeating-characters/
-[003-solution1]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/Solutions/003%20-%20Longest%20Substring%20Without%20Repeating%20Characters/LongestSubstringWithUniqueCharsBruteForceSolution.swift
-[003-solution2]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/Solutions/003%20-%20Longest%20Substring%20Without%20Repeating%20Characters/LongestSubstringWithUniqueCharsSlidingWindowSolution.swift
-[003-solution3]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/Solutions/003%20-%20Longest%20Substring%20Without%20Repeating%20Characters/LongestSubstringWithUniqueCharsOptimizedSlidingWindowSolution.swift
+[003-solution1]: /Sources/Solutions/003%20-%20Longest%20Substring%20Without%20Repeating%20Characters/Problem003BruteForceSolution.swift
+[003-solution2]: /Sources/Solutions/003%20-%20Longest%20Substring%20Without%20Repeating%20Characters/Problem003SlidingWindowSolution.swift
+[003-solution3]: /Sources/Solutions/003%20-%20Longest%20Substring%20Without%20Repeating%20Characters/Problem003OptimizedSlidingWindowSolution.swift
 
 [004-problem]: https://leetcode.com/problems/median-of-two-sorted-arrays
 [004-walkthrough]: https://jobear.dev/algo-hub
-[004-solution1]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/Solutions/004%20-%20Median%20of%20Two%20Sorted%20Arrays/MedianOfTwoSortedArraysMergeSolution.swift
-[004-solution2]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/Solutions/004%20-%20Median%20of%20Two%20Sorted%20Arrays/MedianOfTwoSortedArraysTwoPointerSolution.swift
-[004-solution3]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/Solutions/004%20-%20Median%20of%20Two%20Sorted%20Arrays/MedianOfTwoSortedArraysBinarySearchSolution.swift
+[004-solution1]: /Sources/Solutions/004%20-%20Median%20of%20Two%20Sorted%20Arrays/Problem004MergeSolution.swift
+[004-solution2]: /Sources/Solutions/004%20-%20Median%20of%20Two%20Sorted%20Arrays/Problem004TwoPointerSolution.swift
+[004-solution3]: /Sources/Solutions/004%20-%20Median%20of%20Two%20Sorted%20Arrays/Problem004BinarySearchSolution.swift
 
 [005-problem]: https://leetcode.com/problems/longest-palindromic-substring
 [005-walkthrough]: https://jobear.dev/algo-hub
-[005-solution1]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/Solutions/005%20-%20Longest%20Palindromic%20Substring/LongestPalindromicSubstringExpandAroundCenterSolution.swift
+[005-solution1]: /Sources/Solutions/005%20-%20Longest%20Palindromic%20Substring
 
 [006-problem]: https://leetcode.com/problems/zigzag-conversion
 [006-walkthrough]: https://jobear.dev/algo-hub
-[006-solution1]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/Solutions/006%20-%20Zigzag%20Conversion/ZigzagConversionRowByRowSolution.swift
+[006-solution1]: /Sources/Solutions/006%20-%20Zigzag%20Conversion/Problem006RowByRowSolution.swift
 
 [007-problem]: https://leetcode.com/problems/reverse-integer
 [007-walkthrough]: https://jobear.dev/algo-hub
-[007-solution1]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/Solutions/007%20-%20Reverse%20Integer/ReverseIntegerStringConversionSolution.swift
+[007-solution1]: /Sources/Solutions/007%20-%20Reverse%20Integer/Problem007StringConversionSolution.swift
