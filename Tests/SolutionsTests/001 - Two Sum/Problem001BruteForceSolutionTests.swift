@@ -5,25 +5,25 @@
 //  Created by Jobert Sá on 04/07/2024.
 //
 
-import XCTest
-@testable import Solutions
-@testable import TestSupport
+import class XCTest.XCTestCase
+import func XCTest.XCTAssertEqual
+@testable import protocol Solutions.Problem001Definition
+@testable import class Solutions.Problem001BruteForceSolution
+@testable import struct TestSupport.TestData
 
-extension Problem001 {
-    final class BruteForceSolutionTests: XCTestCase {
-        
-        let solution: Definition = BruteForceSolution()
-        
-        func testSolution() {
-            for testData in data {
-                let input = testData.input
-                
-                let output = solution.twoSum(input.nums, input.target)
-                
-                XCTAssertEqual(output, testData.expectedOutput)
-            }
+final class Problem001BruteForceSolutionTests: XCTestCase {
+    
+    let solution: Problem001Definition = Problem001BruteForceSolution()
+    
+    func testSolution() {
+        for testData in data {
+            let input = testData.input
+            
+            let output = solution.twoSum(input.nums, input.target)
+            
+            XCTAssertEqual(output, testData.expectedOutput)
         }
     }
 }
 
-extension Problem001.BruteForceSolutionTests: Problem001.TestCaseProvider { }
+extension Problem001BruteForceSolutionTests: Problem001TestCaseProvider { }

@@ -5,15 +5,12 @@
 //  Created by Jobert Sá on 04/07/2024.
 //
 
-@testable import Core
-@testable import Solutions
-@testable import TestSupport
+@testable import protocol TestSupport.TestCaseProviding
+@testable import struct TestSupport.TestData
 
-extension Problem001 {
-    protocol TestCaseProvider: TestCaseProviding { }
-}
+protocol Problem001TestCaseProvider: TestCaseProviding { }
 
-extension Problem001.TestCaseProvider {
+extension Problem001TestCaseProvider {
 
     func validateInput(_ input: (nums: [Int], target: Int)) -> Bool {
         // TODO: Complete validation
