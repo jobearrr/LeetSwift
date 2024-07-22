@@ -29,6 +29,14 @@ extension ReverseIntegerTestCaseProvider {
         TestData(
             input: 120,
             expectedOutput: 21
+        ),
+        TestData(
+            input: Int(Int32.min) - 1,
+            expectedOutput: 0
+        ),
+        TestData(
+            input: Int(Int32.max) + 1,
+            expectedOutput: 0
         )
     ] }
 }
