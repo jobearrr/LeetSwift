@@ -15,9 +15,6 @@ let package = Package(
             name: "Core",
             targets: ["Core"]),
         .library(
-            name: "Problems",
-            targets: ["Problems"]),
-        .library(
             name: "Solutions",
             targets: ["Solutions"]),
         .library(
@@ -26,15 +23,11 @@ let package = Package(
     ],
     targets: [
         .target(name: "Core"),
-        .target(name: "Problems", dependencies: ["Core"]),
-        .target(name: "Solutions", dependencies: ["Core", "Problems"]),
+        .target(name: "Solutions", dependencies: ["Core"]),
         .target(name: "TestSupport", dependencies: ["Core"]),
         .testTarget(
             name: "CoreTests",
             dependencies: ["Core"]),
-        .testTarget(
-            name: "ProblemsTests",
-            dependencies: ["Core", "Problems"]),
         .testTarget(
             name: "SolutionsTests",
             dependencies: ["Core", "Solutions", "TestSupport"]),

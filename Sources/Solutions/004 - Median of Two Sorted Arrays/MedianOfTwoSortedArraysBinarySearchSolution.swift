@@ -7,7 +7,6 @@
 
 import Core
 import Foundation
-import Problems
 
 final class MedianOfTwoSortedArraysBinarySearchSolution: MedianOfTwoSortedArraysDefinition {
 

@@ -6,7 +6,6 @@
 //
 
 import XCTest
-@testable import Problems
 @testable import Solutions
 @testable import TestSupport
 
