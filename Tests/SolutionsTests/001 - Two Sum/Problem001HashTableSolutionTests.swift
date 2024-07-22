@@ -9,6 +9,7 @@ import class XCTest.XCTestCase
 import func XCTest.XCTAssertEqual
 @testable import protocol Solutions.Problem001Definition
 @testable import class Solutions.Problem001HashTableSolution
+@testable import struct TestSupport.TestData
 @testable import protocol TestSupport.Problem001TestCaseProvider
 
 final class Problem001HashTableSolutionTests: XCTestCase {
@@ -23,6 +24,17 @@ final class Problem001HashTableSolutionTests: XCTestCase {
             
             XCTAssertEqual(output, testData.expectedOutput)
         }
+    }
+    
+    func testNoSolution() {
+        let invalidTestData = TestData<(nums: [Int], target: Int), [Int]>(
+            input: ([], 0),
+            expectedOutput: []
+        )
+        
+        let output = solution.twoSum(invalidTestData.input.nums, invalidTestData.input.target)
+        
+        XCTAssertEqual(output, invalidTestData.expectedOutput)
     }
 }
 

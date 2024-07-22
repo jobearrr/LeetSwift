@@ -9,5 +9,4 @@ protocol TestCaseProviding {
     associatedtype Input
     associatedtype Output
     var data: [TestData<Input, Output>] { get }
-    func validateInput(_ input: Input) -> Bool
 }
