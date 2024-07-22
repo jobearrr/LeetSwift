@@ -88,7 +88,7 @@ You can find the walkthrough with detailed solutions to all the problems on my b
 | 4 | - | - | - | - | [Binary Search][004-solution3] | `O(log(min(m, n)))` | `O(1)` |
 | 5 | [Longest Palindromic Substring][005-problem] | **`TP`** **`S`** **`DP`** | ![Difficulty][difficulty-medium-shield] | | [Expand Around Center][005-solution1] | `O(n²)` | `O(n²)` |
 | 6 | [Zigzag Conversion][006-problem] | **`S`** | ![Difficulty][difficulty-medium-shield] | | [Row-By-Row][006-solution1] | `O(n)` | `O(n)` |
-| 7 | [Reverse Integer][007-problem] | **`M`** | ![Difficulty][difficulty-medium-shield] | | | | |
+| 7 | [Reverse Integer][007-problem] | **`M`** | ![Difficulty][difficulty-medium-shield] | | [String Convertion][007-solution1] | `O(n)` | `O(n)` |
 
 ### Topics
 - **`A`** : Array
@@ -175,3 +175,4 @@ Please acknowledge [the license](https://github.com/jobearrr/LeetSwift/blob/main
 
 [007-problem]: https://leetcode.com/problems/reverse-integer
 [007-walkthrough]: https://jobear.dev/algo-hub
+[007-solution1]: https://github.com/jobearrr/LeetSwift/blob/main/Sources/Solutions/007%20-%20Reverse%20Integer/ReverseIntegerStringConversionSolution.swift
