@@ -131,7 +131,7 @@ Please acknowledge [the license](https://github.com/jobearrr/LeetSwift/blob/main
 
 [license-shield]: https://img.shields.io/github/license/jobearrr/LeetSwift.svg?style=flat
 [license-url]: https://github.com/jobearrr/LeetSwift?tab=AGPL-3.0-1-ov-file#readme
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg??style=flat&logo=linkedin&colorB=555
+[linkedin-shield]: https://img.shields.io/badge/-jobertsa-0072b1?style=flat&logo=Linkedin&logoColor=white
 [linkedin-url]: https://www.linkedin.com/in/jobertsa
 [jobear-blog-url]: https://jobear.dev
 [jobear-algo-url]: https://jobear.dev/algo-hub/
