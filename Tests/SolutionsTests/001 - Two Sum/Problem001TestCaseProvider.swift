@@ -1,16 +1,19 @@
 //
-//  TwoSumTestCaseProvider.swift
+//  Problem001TestCaseProvider.swift
 //  LeetSwift
 //
 //  Created by Jobert Sá on 04/07/2024.
 //
 
 @testable import Core
+@testable import Solutions
 @testable import TestSupport
 
-protocol TwoSumTestCaseProvider: TestCaseProviding { }
+extension Problem001 {
+    protocol TestCaseProvider: TestCaseProviding { }
+}
 
-extension TwoSumTestCaseProvider {
+extension Problem001.TestCaseProvider {
 
     func validateInput(_ input: (nums: [Int], target: Int)) -> Bool {
         // TODO: Complete validation
