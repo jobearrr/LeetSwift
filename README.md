@@ -30,41 +30,39 @@ Here's the representation of the project structure, to make it easier to navigat
 Please pay attention to this if adding problems and implementing solutions, so everything conforms to this folder structure.
 ``` bash
 .
-├── LeetSwift                             # Companion app
-│   └── ...                               # Project files
+├── LeetSwift                                      # Companion app
+│   └── ...                                        # Project files
 ├── LeetSwift.xcworkspace
-├── Package.swift                         # LeetSwift package spec
+├── Package.swift                                  # LeetSwift package spec
 ├── Sources
-│   ├── Core                              # Data structures, helpers, etc.
+│   ├── Core                                       # Data structures, helpers, etc.
 │   │   └── ...
-│   ├── Problems
-│   │   ├── ...
-│   │   └── XXX - Problem title
-│   │       └── ProblemDefinition.swift   # Problem definition
 │   ├── Solutions
 │   │   ├── ...
 │   │   └── XXX - Problem title
-│   │       ├── ...                       # Other solutions
-│   │       └── Solution.swift            # One solution
-│   └── TestSupport                       # Testing support files
-│       ├── ...
+│   │       ├── ProblemXXXDefinition.swift         # Problem definition
+│   │       ├── ProblemXXXMSolution.swift          # Solution M
+│   │       ├── ProblemXXXMSolution.swift          # Solution N
+│   │       └── ...                                # Other solutions
+│   └── TestSupport                                # Testing support files
+│       ├── TestCases
+│       │   ├── ProblemXXXMTestCaseProvider.swift  # Test cases for Problem XXX
+│       │   └── ...
+│       ├── Utils                                  # Supporting classes / extensions
 │       ├── Array+ListNode.swift
 │       ├── TestCaseProviding.swift
 │       └── TestData.swift
 └── Tests
-    ├── Core                              # LeetCode core tests
+    ├── CoreTests
     │   └── ...
-    ├── ProblemsTests                     # Input validation, etc.
-    │   ├── ...
-    │   └── XXX - Problem title
-    │       └── ProblemTests.swift
-    ├── Solutions                         # Run test cases for solutions
-    │   ├── ...
-    │   └── XXX - Problem title
-    │       ├── ...                       # Test cases for other solutions
-    │       └── SolutionTests.swift       # Test cases for one solution
-    └── TestSupportTests                  # Testing support files
-        └── ...
+    ├── SolutionsTests
+    │   ├── ProblemXXXTests.swift                  # Test all solutions for Problem XXX
+    │   └── ...                                    # Other tests
+    └── TestSupportTests
+        ├── TestCases
+        │   └── ...                                # Validate test cases
+        └── Utils
+            └── ...                                # Test support classes
 ```
 
 ## Problems
