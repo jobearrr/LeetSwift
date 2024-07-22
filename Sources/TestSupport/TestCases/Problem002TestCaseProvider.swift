@@ -5,16 +5,11 @@
 //  Created by Jobert Sá on 04/07/2024.
 //
 
-@testable import Core
+@testable import class Core.ListNode
 
 protocol Problem002TestCaseProvider: TestCaseProviding { }
 
 extension Problem002TestCaseProvider {
-
-    func validateInput(_ input: (l1: ListNode?, l2: ListNode?)) -> Bool {
-        // TODO: Implement validation
-        true
-    }
 
     var data: [TestData<(l1: ListNode?, l2: ListNode?), ListNode?>] { [
         TestData(

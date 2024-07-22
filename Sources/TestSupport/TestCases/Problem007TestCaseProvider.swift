@@ -9,11 +9,6 @@ protocol Problem007TestCaseProvider: TestCaseProviding { }
 
 extension Problem007TestCaseProvider {
 
-    func validateInput(_ input: Int) -> Bool {
-        // TODO: Implement validation
-        true
-    }
-
     var data: [TestData<Int, Int>] { [
         TestData(
             input: 123,
