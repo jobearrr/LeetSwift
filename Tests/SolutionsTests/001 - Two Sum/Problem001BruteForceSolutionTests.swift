@@ -9,7 +9,7 @@ import class XCTest.XCTestCase
 import func XCTest.XCTAssertEqual
 @testable import protocol Solutions.Problem001Definition
 @testable import class Solutions.Problem001BruteForceSolution
-@testable import struct TestSupport.TestData
+@testable import protocol TestSupport.Problem001TestCaseProvider
 
 final class Problem001BruteForceSolutionTests: XCTestCase {
     

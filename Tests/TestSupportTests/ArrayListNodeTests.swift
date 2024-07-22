@@ -5,9 +5,10 @@
 //  Created by Jobert Sá on 03/07/2024.
 //
 
-import XCTest
-@testable import Core
-@testable import TestSupport
+import class XCTest.XCTestCase
+import func XCTest.XCTAssertEqual
+import func XCTest.XCTAssertNil
+@testable import class Core.ListNode
 
 class ArrayListNodeTests: XCTestCase {
 

@@ -5,8 +5,9 @@
 //  Created by Jobert Sá on 03/07/2024.
 //
 
-import XCTest
-@testable import TestSupport
+import class XCTest.XCTestCase
+import func XCTest.XCTAssertEqual
+@testable import struct TestSupport.TestData
 
 class TestDataTests: XCTestCase {
     // Test for integers
