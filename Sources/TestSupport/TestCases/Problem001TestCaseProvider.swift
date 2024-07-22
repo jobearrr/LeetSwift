@@ -8,7 +8,7 @@
 protocol Problem001TestCaseProvider: TestCaseProviding { }
 
 extension Problem001TestCaseProvider {
-    
+
     var data: [TestData<(nums: [Int], target: Int), [Int]>] { [
         TestData(
             input: ([2, 7, 11, 15], 9),

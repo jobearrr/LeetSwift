@@ -14,33 +14,33 @@ import func XCTest.XCTAssertEqual
 @testable import protocol TestSupport.Problem001TestCaseProvider
 
 final class Problem001Tests: XCTestCase {
-    
+
     let solutions: [Problem001Definition] = [
         Problem001BruteForceSolution(),
         Problem001HashTableSolution()
         ]
-    
+
     func testSolution() {
         for solution in solutions {
             for testData in data {
                 let input = testData.input
-                
+
                 let output = solution.twoSum(input.nums, input.target)
-                
+
                 XCTAssertEqual(output, testData.expectedOutput)
             }
         }
     }
-    
+
     func testNoSolution() {
         for solution in solutions {
             let invalidTestData = TestData<(nums: [Int], target: Int), [Int]>(
                 input: ([], 0),
                 expectedOutput: []
             )
-            
+
             let output = solution.twoSum(invalidTestData.input.nums, invalidTestData.input.target)
-            
+
             XCTAssertEqual(output, invalidTestData.expectedOutput)
         }
     }

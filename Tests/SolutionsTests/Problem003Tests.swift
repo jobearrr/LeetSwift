@@ -14,13 +14,13 @@ import func XCTest.XCTAssertEqual
 @testable import protocol TestSupport.Problem003TestCaseProvider
 
 final class Problem003Tests: XCTestCase {
-    
+
     let solutions: [Problem003Definition] = [
         Problem003BruteForceSolution(),
         Problem003SlidingWindowSolution(),
         Problem003OptimizedSlidingWindowSolution()
         ]
-    
+
     func testSolution() {
         for solution in solutions {
             for testData in data {
