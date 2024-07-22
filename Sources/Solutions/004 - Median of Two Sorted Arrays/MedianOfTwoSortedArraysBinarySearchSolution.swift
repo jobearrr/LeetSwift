@@ -30,11 +30,10 @@ final class MedianOfTwoSortedArraysBinarySearchSolution: MedianOfTwoSortedArrays
             let minRightB = (j == n) ? Int.max : b[j]
 
             if maxLeftA <= minRightB && maxLeftB <= minRightA {
-                if (m + n) % 2 == 0 {
-                    return Double(max(maxLeftA, maxLeftB) + min(minRightA, minRightB)) / 2.0
-                } else {
+                guard (m + n) % 2 == 0 else {
                     return Double(max(maxLeftA, maxLeftB))
                 }
+                return Double(max(maxLeftA, maxLeftB) + min(minRightA, minRightB)) / 2.0
             } else if maxLeftA > minRightB {
                 high = i - 1
             } else {
