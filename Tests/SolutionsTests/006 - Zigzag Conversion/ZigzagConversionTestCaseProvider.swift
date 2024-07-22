@@ -12,7 +12,7 @@ protocol ZigzagConversionTestCaseProvider: TestCaseProviding { }
 
 extension ZigzagConversionTestCaseProvider {
 
-    func validateInput(_ input: (l1: ListNode?, l2: ListNode?)) -> Bool {
+    func validateInput(_ input: (s: String, numRows: Int)) -> Bool {
         // TODO: Implement validation
         true
     }
