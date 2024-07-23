@@ -44,11 +44,7 @@ Please pay attention to this if adding problems and implementing solutions, so e
 │   │       ├── ProblemXXXMSolution.swift          # Solution M
 │   │       ├── ProblemXXXMSolution.swift          # Solution N
 │   │       └── ...                                # Other solutions
-│   └── TestSupport                                # Testing support files
-│       ├── TestCases
-│       │   ├── ProblemXXXMTestCaseProvider.swift  # Test cases for Problem XXX
-│       │   └── ...
-│       ├── Utils                                  # Supporting classes / extensions
+│   └── TestSupport                                # Supporting classes / extensions
 │       ├── Array+ListNode.swift
 │       ├── TestCaseProviding.swift
 │       └── TestData.swift
@@ -59,8 +55,6 @@ Please pay attention to this if adding problems and implementing solutions, so e
     │   ├── ProblemXXXTests.swift                  # Test all solutions for Problem XXX
     │   └── ...                                    # Other tests
     └── TestSupportTests
-        ├── TestCases
-        │   └── ...                                # Validate test cases
         └── Utils
             └── ...                                # Test support classes
 ```
