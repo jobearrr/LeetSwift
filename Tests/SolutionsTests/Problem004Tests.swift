@@ -36,6 +36,10 @@ extension Problem004Tests: TestCaseProviding {
         TestData(
             input: ([1, 2], [3, 4]),
             expectedOutput: 2.50000
+        ),
+        TestData(
+            input: ([], [1]),
+            expectedOutput: 1.00000
         )
     ] }
     
