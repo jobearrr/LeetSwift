@@ -8,36 +8,39 @@
 final class Problem004BinarySearchSolution: Problem004Definition {
 
     func findMedianSortedArrays(_ nums1: [Int], _ nums2: [Int]) -> Double {
-        let a = nums1.count < nums2.count ? nums1 : nums2
-        let b = nums1.count < nums2.count ? nums2 : nums1
-        let m = a.count
-        let n = b.count
+        let (a, b) = nums1.count <= nums2.count ? (nums1, nums2) : (nums2, nums1)
+        let (m, n) = (a.count, b.count)
 
         var low = 0
         var high = m
+        let mid = (m + n + 1) / 2
 
         while low <= high {
             let i = (low + high) / 2
-            let j = (m + n + 1) / 2 - i
-
-            let maxLeftA = (i == 0) ? Int.min : a[i - 1]
-            let minRightA = (i == m) ? Int.max : a[i]
-
-            let maxLeftB = (j == 0) ? Int.min : b[j - 1]
-            let minRightB = (j == n) ? Int.max : b[j]
-
-            if maxLeftA <= minRightB && maxLeftB <= minRightA {
-                guard (m + n) % 2 == 0 else {
-                    return Double(max(maxLeftA, maxLeftB))
-                }
-                return Double(max(maxLeftA, maxLeftB) + min(minRightA, minRightB)) / 2.0
-            } else if maxLeftA > minRightB {
+            let j = mid - i
+            
+            if i < m && a[i] < b[j - 1] {
+                low = i + 1
+            } else if i > 0 && a[i - 1] > b[j] {
                 high = i - 1
             } else {
-                low = i + 1
+                let maxOfLeft: Int
+                if i == 0 { maxOfLeft = b[j - 1] }
+                else if j == 0 { maxOfLeft = a[i - 1] }
+                else { maxOfLeft = max(a[i - 1], b[j - 1]) }
+                
+                if (m + n) % 2 == 1 {
+                    return Double(maxOfLeft)
+                }
+                
+                let minOfRight: Int
+                if i == m { minOfRight = b[j] }
+                else if j == n { minOfRight = a[i] }
+                else { minOfRight = min(a[i], b[j]) }
+                
+                return Double(maxOfLeft + minOfRight) / 2.0
             }
         }
-
         return 0.0
     }
 }
