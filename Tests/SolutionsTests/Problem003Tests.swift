@@ -20,7 +20,7 @@ final class Problem003Tests: XCTestCase {
         Problem003SlidingWindowSolution(),
         Problem003OptimizedSlidingWindowSolution()
         ]
-    
+
     func testDefaultCases() {
         testProvidedCases()
     }
@@ -41,7 +41,7 @@ extension Problem003Tests: TestCaseProviding {
             expectedOutput: 3
         )
     ] }
-    
+
     func execute(solution: Problem003Definition, input: String) -> Int {
         solution.lengthOfLongestSubstring(input)
     }

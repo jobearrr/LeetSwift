@@ -12,7 +12,7 @@ protocol TestCaseProviding where Output: Equatable {
     associatedtype Input
     associatedtype Output
     associatedtype ProblemDefinition
-    
+
     var data: [TestData<Input, Output>] { get }
     var solutions: [ProblemDefinition] { get }
     func execute(solution: ProblemDefinition, input: Input) -> Output

@@ -17,7 +17,7 @@ final class Problem005Tests: XCTestCase {
     let solutions: [Problem005Definition] = [
         Problem005ExpandAroundCenterSolution()
         ]
-    
+
     func testDefaultCases() {
         testProvidedCases()
     }
@@ -34,7 +34,7 @@ extension Problem005Tests: TestCaseProviding {
             expectedOutput: "bb"
         )
     ] }
-    
+
     func execute(solution: any Problem005Definition, input: String) -> String {
         solution.longestPalindrome(input)
     }

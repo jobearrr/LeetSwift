@@ -21,7 +21,7 @@ final class Problem004Tests: XCTestCase {
         Problem004TwoPointerSolution(),
         Problem004BinarySearchSolution()
         ]
-    
+
     func testDefaultCases() {
         testProvidedCases()
     }
@@ -66,7 +66,7 @@ extension Problem004Tests: TestCaseProviding {
             expectedOutput: 3.00000
         )
     ] }
-    
+
     func execute(solution: any Problem004Definition, input: (nums1: [Int], nums2: [Int])) -> Double {
         solution.findMedianSortedArrays(input.nums1, input.nums2)
     }

@@ -17,7 +17,7 @@ final class Problem006Tests: XCTestCase {
     let solutions: [Problem006Definition] = [
         Problem006RowByRowSolution()
         ]
-    
+
     func testDefaultCases() {
         testProvidedCases()
     }
@@ -38,7 +38,7 @@ extension Problem006Tests: TestCaseProviding {
             expectedOutput: "A"
         )
     ] }
-    
+
     func execute(solution: any Problem006Definition, input: (s: String, numRows: Int)) -> String {
         solution.convert(input.s, input.numRows)
     }

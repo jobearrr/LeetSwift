@@ -19,7 +19,7 @@ final class Problem001Tests: XCTestCase {
         Problem001BruteForceSolution(),
         Problem001HashTableSolution()
         ]
-    
+
     func testDefaultCases() {
         testProvidedCases()
     }
@@ -53,7 +53,7 @@ extension Problem001Tests: TestCaseProviding {
             expectedOutput: [0, 1]
         )
     ] }
-    
+
     func execute(solution: Problem001Definition, input: (nums: [Int], target: Int)) -> [Int] {
         solution.twoSum(input.nums, input.target)
     }

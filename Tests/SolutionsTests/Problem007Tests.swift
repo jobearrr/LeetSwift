@@ -18,7 +18,7 @@ final class Problem007Tests: XCTestCase {
     let solutions: [Problem007Definition] = [
         Problem007StringConversionSolution()
         ]
-    
+
     func testDefaultCases() {
         testProvidedCases()
     }
@@ -47,7 +47,7 @@ extension Problem007Tests: TestCaseProviding {
             expectedOutput: 0
         )
     ] }
-    
+
     func execute(solution: any Problem007Definition, input: Int) -> Int {
         solution.reverse(input)
     }

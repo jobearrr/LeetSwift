@@ -21,7 +21,7 @@ final class Problem002Tests: XCTestCase {
         Problem002RecursiveHelperSolution(),
         Problem002RecursiveSolution()
         ]
-    
+
     func testDefaultCases() {
         testProvidedCases()
     }
@@ -43,7 +43,7 @@ extension Problem002Tests: TestCaseProviding {
             expectedOutput: [8, 9, 9, 9, 0, 0, 0, 1].listNode
         )
     ] }
-    
+
     func execute(solution: Problem002Definition, input: (l1: ListNode?, l2: ListNode?)) -> ListNode? {
         solution.addTwoNumbers(input.l1, input.l2)
     }
