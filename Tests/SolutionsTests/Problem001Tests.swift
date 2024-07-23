@@ -11,7 +11,7 @@ import func XCTest.XCTAssertEqual
 @testable import class Solutions.Problem001BruteForceSolution
 @testable import class Solutions.Problem001HashTableSolution
 @testable import struct TestSupport.TestData
-@testable import protocol TestSupport.Problem001TestCaseProvider
+@testable import protocol TestSupport.TestCaseProviding
 
 final class Problem001Tests: XCTestCase {
 
@@ -19,17 +19,9 @@ final class Problem001Tests: XCTestCase {
         Problem001BruteForceSolution(),
         Problem001HashTableSolution()
         ]
-
-    func testSolution() {
-        for solution in solutions {
-            for testData in data {
-                let input = testData.input
-
-                let output = solution.twoSum(input.nums, input.target)
-
-                XCTAssertEqual(output, testData.expectedOutput)
-            }
-        }
+    
+    func testDefaultCases() {
+        testProvidedCases()
     }
 
     func testNoSolution() {
@@ -46,4 +38,23 @@ final class Problem001Tests: XCTestCase {
     }
 }
 
-extension Problem001Tests: Problem001TestCaseProvider { }
+extension Problem001Tests: TestCaseProviding {
+    var data: [TestData<(nums: [Int], target: Int), [Int]>] { [
+        TestData(
+            input: ([2, 7, 11, 15], 9),
+            expectedOutput: [0, 1]
+        ),
+        TestData(
+            input: ([3, 2, 4], 6),
+            expectedOutput: [1, 2]
+        ),
+        TestData(
+            input: ([3, 3], 6),
+            expectedOutput: [0, 1]
+        )
+    ] }
+    
+    func execute(solution: Problem001Definition, input: (nums: [Int], target: Int)) -> [Int] {
+        solution.twoSum(input.nums, input.target)
+    }
+}

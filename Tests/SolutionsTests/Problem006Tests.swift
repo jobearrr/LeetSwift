@@ -9,25 +9,37 @@ import class XCTest.XCTestCase
 import func XCTest.XCTAssertEqual
 @testable import protocol Solutions.Problem006Definition
 @testable import class Solutions.Problem006RowByRowSolution
-@testable import protocol TestSupport.Problem006TestCaseProvider
+@testable import struct TestSupport.TestData
+@testable import protocol TestSupport.TestCaseProviding
 
 final class Problem006Tests: XCTestCase {
 
     let solutions: [Problem006Definition] = [
         Problem006RowByRowSolution()
         ]
-
-    func testSolution() {
-        for solution in solutions {
-            for testData in data {
-                let input = testData.input
-
-                let output = solution.convert(input.s, input.numRows)
-
-                XCTAssertEqual(output, testData.expectedOutput)
-            }
-        }
+    
+    func testDefaultCases() {
+        testProvidedCases()
     }
 }
 
-extension Problem006Tests: Problem006TestCaseProvider { }
+extension Problem006Tests: TestCaseProviding {
+    var data: [TestData<(s: String, numRows: Int), String>] { [
+        TestData(
+            input: ("PAYPALISHIRING", 3),
+            expectedOutput: "PAHNAPLSIIGYIR"
+        ),
+        TestData(
+            input: ("PAYPALISHIRING", 4),
+            expectedOutput: "PINALSIGYAHRPI"
+        ),
+        TestData(
+            input: ("A", 3),
+            expectedOutput: "A"
+        )
+    ] }
+    
+    func execute(solution: any Problem006Definition, input: (s: String, numRows: Int)) -> String {
+        solution.convert(input.s, input.numRows)
+    }
+}

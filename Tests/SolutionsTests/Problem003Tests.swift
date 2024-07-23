@@ -6,12 +6,12 @@
 //
 
 import class XCTest.XCTestCase
-import func XCTest.XCTAssertEqual
 @testable import protocol Solutions.Problem003Definition
 @testable import class Solutions.Problem003BruteForceSolution
 @testable import class Solutions.Problem003SlidingWindowSolution
 @testable import class Solutions.Problem003OptimizedSlidingWindowSolution
-@testable import protocol TestSupport.Problem003TestCaseProvider
+@testable import struct TestSupport.TestData
+@testable import protocol TestSupport.TestCaseProviding
 
 final class Problem003Tests: XCTestCase {
 
@@ -20,18 +20,29 @@ final class Problem003Tests: XCTestCase {
         Problem003SlidingWindowSolution(),
         Problem003OptimizedSlidingWindowSolution()
         ]
-
-    func testSolution() {
-        for solution in solutions {
-            for testData in data {
-                let input = testData.input
-
-                let output = solution.lengthOfLongestSubstring(input)
-
-                XCTAssertEqual(output, testData.expectedOutput)
-            }
-        }
+    
+    func testDefaultCases() {
+        testProvidedCases()
     }
 }
 
-extension Problem003Tests: Problem003TestCaseProvider { }
+extension Problem003Tests: TestCaseProviding {
+    var data: [TestData<String, Int>] { [
+        TestData(
+            input: "abcabcbb",
+            expectedOutput: 3
+        ),
+        TestData(
+            input: "bbbbb",
+            expectedOutput: 1
+        ),
+        TestData(
+            input: "pwwkew",
+            expectedOutput: 3
+        )
+    ] }
+    
+    func execute(solution: Problem003Definition, input: String) -> Int {
+        solution.lengthOfLongestSubstring(input)
+    }
+}

@@ -11,25 +11,44 @@ import func XCTest.XCTAssertEqual
 @testable import class Solutions.Problem007StringConversionSolution
 @testable import class Solutions.Problem001HashTableSolution
 @testable import struct TestSupport.TestData
-@testable import protocol TestSupport.Problem007TestCaseProvider
+@testable import protocol TestSupport.TestCaseProviding
 
 final class Problem007Tests: XCTestCase {
 
     let solutions: [Problem007Definition] = [
         Problem007StringConversionSolution()
         ]
-
-    func testSolution() {
-        for solution in solutions {
-            for testData in data {
-                let input = testData.input
-
-                let output = solution.reverse(input)
-
-                XCTAssertEqual(output, testData.expectedOutput)
-            }
-        }
+    
+    func testDefaultCases() {
+        testProvidedCases()
     }
 }
 
-extension Problem007Tests: Problem007TestCaseProvider { }
+extension Problem007Tests: TestCaseProviding {
+    var data: [TestData<Int, Int>] { [
+        TestData(
+            input: 123,
+            expectedOutput: 321
+        ),
+        TestData(
+            input: -123,
+            expectedOutput: -321
+        ),
+        TestData(
+            input: 120,
+            expectedOutput: 21
+        ),
+        TestData(
+            input: Int(Int32.min) - 1,
+            expectedOutput: 0
+        ),
+        TestData(
+            input: Int(Int32.max) + 1,
+            expectedOutput: 0
+        )
+    ] }
+    
+    func execute(solution: any Problem007Definition, input: Int) -> Int {
+        solution.reverse(input)
+    }
+}

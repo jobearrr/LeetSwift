@@ -9,25 +9,33 @@ import class XCTest.XCTestCase
 import func XCTest.XCTAssertEqual
 @testable import protocol Solutions.Problem005Definition
 @testable import class Solutions.Problem005ExpandAroundCenterSolution
-@testable import protocol TestSupport.Problem005TestCaseProvider
+@testable import struct TestSupport.TestData
+@testable import protocol TestSupport.TestCaseProviding
 
 final class Problem005Tests: XCTestCase {
 
     let solutions: [Problem005Definition] = [
         Problem005ExpandAroundCenterSolution()
         ]
-
-    func testSolution() {
-        for solution in solutions {
-            for testData in data {
-                let input = testData.input
-
-                let output = solution.longestPalindrome(input)
-
-                XCTAssertEqual(output, testData.expectedOutput)
-            }
-        }
+    
+    func testDefaultCases() {
+        testProvidedCases()
     }
 }
 
-extension Problem005Tests: Problem005TestCaseProvider { }
+extension Problem005Tests: TestCaseProviding {
+    var data: [TestData<String, String>] { [
+        TestData(
+            input: "babad",
+            expectedOutput: "aba"
+        ),
+        TestData(
+            input: "cbbd",
+            expectedOutput: "bb"
+        )
+    ] }
+    
+    func execute(solution: any Problem005Definition, input: String) -> String {
+        solution.longestPalindrome(input)
+    }
+}
