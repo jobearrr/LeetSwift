@@ -25,14 +25,26 @@ final class Problem004BinarySearchSolution: Problem004Definition {
                 high = i - 1
             } else {
                 let maxOfLeft: Int
-                if i == 0 { maxOfLeft = b[j - 1] } else if j == 0 { maxOfLeft = a[i - 1] } else { maxOfLeft = max(a[i - 1], b[j - 1]) }
+                if i == 0 {
+                    maxOfLeft = b[j - 1]
+                } else if j == 0 {
+                    maxOfLeft = a[i - 1]
+                } else {
+                    maxOfLeft = max(a[i - 1], b[j - 1])
+                }
 
                 if (m + n) % 2 == 1 {
                     return Double(maxOfLeft)
                 }
 
                 let minOfRight: Int
-                if i == m { minOfRight = b[j] } else if j == n { minOfRight = a[i] } else { minOfRight = min(a[i], b[j]) }
+                if i == m {
+                    minOfRight = b[j]
+                } else if j == n {
+                    minOfRight = a[i]
+                } else {
+                    minOfRight = min(a[i], b[j])
+                }
 
                 return Double(maxOfLeft + minOfRight) / 2.0
             }
