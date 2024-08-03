@@ -82,6 +82,7 @@ You can find the walkthrough with detailed solutions to all the problems on my b
 | 6 | [Zigzag Conversion][006-problem] | **`S`** | ![Difficulty][difficulty-medium-shield] | | [Row-By-Row][006-solution1] | `O(n)` | `O(n)` |
 | 7 | [Reverse Integer][007-problem] | **`M`** | ![Difficulty][difficulty-medium-shield] | | [String Convertion][007-solution1] | `O(n)` | `O(n)` |
 | 8 | [String to Integer (atoi)][008-problem] | **`S`** | ![Difficulty][difficulty-medium-shield] | | | | |
+| 9 | [Palindrome Number][009-problem] | **`M`** | ![Difficulty][difficulty-east-shield] | | | | |
 
 ### Topics
 - **`A`** : Array
@@ -172,3 +173,6 @@ Please acknowledge [the license](https://github.com/jobearrr/LeetSwift/blob/main
 
 [008-problem]: https://leetcode.com/problems/string-to-integer-atoi
 [008-walkthrough]: https://jobear.dev/algo-hub
+
+[009-problem]: https://leetcode.com/problems/palindrome-number
+[009-walkthrough]: https://jobear.dev/algo-hub
