@@ -26,8 +26,7 @@ final class Problem004TwoPointerSolution: Problem004Definition {
 
         if total % 2 == 0 {
             return Double(current + previous) / 2.0
-        } else {
-            return Double(current)
         }
+        return Double(current)
     }
 }
