@@ -157,7 +157,7 @@ Please acknowledge [the license](https://github.com/jobearrr/LeetSwift/blob/main
 [003-solution3]: /Sources/Solutions/003%20-%20Longest%20Substring%20Without%20Repeating%20Characters/Problem003OptimizedSlidingWindowSolution.swift
 
 [004-problem]: https://leetcode.com/problems/median-of-two-sorted-arrays
-[004-walkthrough]: https://jobear.dev/algo-hub
+[004-walkthrough]: https://jobear.dev/algo-hub/leetcode/004-median-of-two-sorted-arrays/
 [004-solution1]: /Sources/Solutions/004%20-%20Median%20of%20Two%20Sorted%20Arrays/Problem004MergeSolution.swift
 [004-solution2]: /Sources/Solutions/004%20-%20Median%20of%20Two%20Sorted%20Arrays/Problem004TwoPointerSolution.swift
 [004-solution3]: /Sources/Solutions/004%20-%20Median%20of%20Two%20Sorted%20Arrays/Problem004BinarySearchSolution.swift
