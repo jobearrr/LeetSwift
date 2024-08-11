@@ -41,5 +41,5 @@ Below is a table with a summary of the solutions.
 <!-- Markdown references https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [001-problem]: https://leetcode.com/problems/two-sum
 [001-walkthrough]: https://jobear.dev/algo-hub/leetcode/001-two-sum
-[001-solution1]: /Sources/Solutions/001%20-%20Two%20Sum/Problem001BruteForceSolution.swift
-[001-solution2]: /Sources/Solutions/001%20-%20Two%20Sum/Problem001HashTableSolution.swift
+[001-solution1]: ./Problem001BruteForceSolution.swift
+[001-solution2]: ./Problem001HashTableSolution.swift
