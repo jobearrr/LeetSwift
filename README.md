@@ -43,7 +43,8 @@ Please pay attention to this if adding problems and implementing solutions, so e
 │   │       ├── ProblemXXXDefinition.swift         # Problem definition
 │   │       ├── ProblemXXXMSolution.swift          # Solution M
 │   │       ├── ProblemXXXMSolution.swift          # Solution N
-│   │       └── ...                                # Other solutions
+│   │       ├── ...                                # Other solutions
+│   │       └── README.md                          # Documentation and solutions
 │   └── TestSupport                                # Supporting classes / extensions
 │       ├── Array+ListNode.swift
 │       ├── TestCaseProviding.swift
@@ -63,29 +64,22 @@ Please pay attention to this if adding problems and implementing solutions, so e
 
 Below, you can find a table with all the problems with their corresponding solution.
 
-You can find the walkthrough with detailed solutions to all the problems on my blog [jobear.dev][jobear-algo-url], or concrete problem solution walkthrough on the `Walkthrough` column (🚧 Under construction 👷).
+You can find the walkthrough with detailed solutions to all the problems on my blog [jobear.dev][jobear-algo-url], or concrete problem solution walkthrough on the `Walkthrough` column.
 
-| # | Reference | Topics | Difficulty | Walkthrough | Solutions | Time | Space |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | [Two Sum][001-problem] | **`A`** **`HT`** | ![Difficulty][difficulty-easy-shield] | [Walkthrough][001-walkthrough] | [Brute Force][001-solution1] | `O(n²)` | `O(1)` |
-| 1 | - | - | - | - | [Hash Table][001-solution2] | `O(n)` | `O(n)` |
-| 2 | [Add Two Numbers][002-problem] | **`LL`** **`M`** **`R`** | ![Difficulty][difficulty-medium-shield] | [Walkthrough][002-walkthrough] | [Iterative][002-solution1] | `O(max(m,n))` | `O(1)` |
-| 2 | - | - | - | - | [Recursive1][002-solution2] | `O(max(m,n))` | `O(1)` |
-| 2 | - | - | - | - | [Recursive2][002-solution3] | `O(min(m,n))` | `O(1)` |
-| 3 | [Longest Substring Without Repeating Characters][003-problem] | **`HT`** **`S`** **`SW`** | ![Difficulty][difficulty-medium-shield] | [Walkthrough][003-walkthrough] | [Brute Force][003-solution1] | `O(n²)` | `O(min(m,n))` |
-| 3 | - | - | - | - | [Sliding Window][003-solution2] | `O(n)` | `O(min(m,n))` |
-| 3 | - | - | - | - | [Optimized Sliding Window][003-solution3] | `O(n)` | `O(1)` |
-| 4 | [Median of Two Sorted Arrays][004-problem] | **`A`** **`BS`** **`DC`** | ![Difficulty][difficulty-hard-shield] | | [Merge Arrays][004-solution1] | `O((m+n)log(m+n))` | `O(m+n)` |
-| 4 | - | - | - | - | [Two-Pointer][004-solution2] | `O(m+n)` | `O(m+n)` |
-| 4 | - | - | - | - | [Binary Search][004-solution3] | `O(log(min(m, n)))` | `O(1)` |
-| 5 | [Longest Palindromic Substring][005-problem] | **`TP`** **`S`** **`DP`** | ![Difficulty][difficulty-medium-shield] | | [Expand Around Center][005-solution1] | `O(n²)` | `O(n²)` |
-| 6 | [Zigzag Conversion][006-problem] | **`S`** | ![Difficulty][difficulty-medium-shield] | | [Row-By-Row][006-solution1] | `O(n)` | `O(n)` |
-| 7 | [Reverse Integer][007-problem] | **`M`** | ![Difficulty][difficulty-medium-shield] | | [String Convertion][007-solution1] | `O(n)` | `O(n)` |
-| 8 | [String to Integer (atoi)][008-problem] | **`S`** | ![Difficulty][difficulty-medium-shield] | | | | |
-| 9 | [Palindrome Number][009-problem] | **`M`** | ![Difficulty][difficulty-easy-shield] | | | | |
-| 10 | [Regular Expression Matching][010-problem] | **`S`** **`DP`** **`R`** | ![Difficulty][difficulty-hard-shield] | | | | |
-| 11 | [Container With Most Water][011-problem] | **`A`** **`TP`** **`G`** | ![Difficulty][difficulty-medium-shield] | | | | |
-| 12 | [Integer to Roman][012-problem] | **`HT`** **`M`** **`S`** | ![Difficulty][difficulty-medium-shield] | | | | |
+| # | Reference | Topics | Difficulty | Solution | Source Code |
+| --- | --- | --- | --- | --- | --- |
+| 1 | [Two Sum][001-url] | **`A`** **`HT`** | ![Difficulty][easy-shield] | [Walkthrough][001-solution] | [Solutions][001-code] |
+| 2 | [Add Two Numbers][002-url] | **`LL`** **`M`** **`R`** | ![Difficulty][medium-shield] | [Walkthrough][002-solution] | [Solutions][002-code] |
+| 3 | [Longest Substring Without Repeating Characters][003-url] | **`HT`** **`S`** **`SW`** | ![Difficulty][medium-shield] | [Walkthrough][003-solution] | [Solutions][003-code] |
+| 4 | [Median of Two Sorted Arrays][004-url] | **`A`** **`BS`** **`DC`** | ![Difficulty][hard-shield] | [Walkthrough][004-solution] | [Solutions][004-code] |
+| 5 | [Longest Palindromic Substring][005-url] | **`TP`** **`S`** **`DP`** | ![Difficulty][medium-shield] | | [Solutions][005-code] |
+| 6 | [Zigzag Conversion][006-url] | **`S`** | ![Difficulty][medium-shield] | | [Solutions][006-code] |
+| 7 | [Reverse Integer][007-url] | **`M`** | ![Difficulty][medium-shield] | | [Solutions][007-code] |
+| 8 | [String to Integer (atoi)][008-url] | **`S`** | ![Difficulty][medium-shield] | | |
+| 9 | [Palindrome Number][009-url] | **`M`** | ![Difficulty][easy-shield] | | |
+| 10 | [Regular Expression Matching][010-url] | **`S`** **`DP`** **`R`** | ![Difficulty][hard-shield] | | |
+| 11 | [Container With Most Water][011-url] | **`A`** **`TP`** **`G`** | ![Difficulty][medium-shield] | | |
+| 12 | [Integer to Roman][012-url] | **`HT`** **`M`** **`S`** | ![Difficulty][medium-shield] | | |
 
 ### Topics
 - **`A`** : Array
@@ -136,56 +130,49 @@ Please acknowledge [the license](https://github.com/jobearrr/LeetSwift/blob/main
 
 [solutions-tests-folder]: https://github.com/jobearrr/LeetSwift/tree/main/Tests/SolutionsTests
 
-[difficulty-easy-shield]: https://img.shields.io/badge/Easy-brightgreen.svg
-[difficulty-medium-shield]: https://img.shields.io/badge/Medium-yellow.svg
-[difficulty-hard-shield]: https://img.shields.io/badge/Hard-red.svg
+[easy-shield]: https://img.shields.io/badge/Easy-brightgreen.svg
+[medium-shield]: https://img.shields.io/badge/Medium-yellow.svg
+[hard-shield]: https://img.shields.io/badge/Hard-red.svg
 
-[001-problem]: https://leetcode.com/problems/two-sum
-[001-walkthrough]: https://jobear.dev/algo-hub/leetcode/001-two-sum
-[001-solution1]: /Sources/Solutions/001%20-%20Two%20Sum/Problem001BruteForceSolution.swift
-[001-solution2]: /Sources/Solutions/001%20-%20Two%20Sum/Problem001HashTableSolution.swift
+[001-url]: https://leetcode.com/problems/two-sum
+[001-solution]: https://jobear.dev/algo-hub/leetcode/001-two-sum
+[001-code]: /Sources/Solutions/001%20-%20Two%20Sum/README.md
 
-[002-problem]: https://leetcode.com/problems/add-two-numbers
-[002-walkthrough]: https://jobear.dev/algo-hub/leetcode/002-add-two-numbers
-[002-solution1]: /Sources/Solutions/002%20-%20Add%20Two%20Numbers/Problem002IterativeSolution.swift
-[002-solution2]: /Sources/Solutions/002%20-%20Add%20Two%20Numbers/Problem002RecursiveHelperSolution.swift
-[002-solution3]: /Sources/Solutions/002%20-%20Add%20Two%20Numbers/Problem002RecursiveSolution.swift
+[002-url]: https://leetcode.com/problems/add-two-numbers
+[002-solution]: https://jobear.dev/algo-hub/leetcode/002-add-two-numbers
+[002-code]: /Sources/Solutions/002%20-%20Add%20Two%20Numbers/README.md
 
-[003-problem]: https://leetcode.com/problems/longest-substring-without-repeating-characters
-[003-walkthrough]: https://jobear.dev/algo-hub/leetcode/003-longest-substring-without-repeating-characters/
-[003-solution1]: /Sources/Solutions/003%20-%20Longest%20Substring%20Without%20Repeating%20Characters/Problem003BruteForceSolution.swift
-[003-solution2]: /Sources/Solutions/003%20-%20Longest%20Substring%20Without%20Repeating%20Characters/Problem003SlidingWindowSolution.swift
-[003-solution3]: /Sources/Solutions/003%20-%20Longest%20Substring%20Without%20Repeating%20Characters/Problem003OptimizedSlidingWindowSolution.swift
+[003-url]: https://leetcode.com/problems/longest-substring-without-repeating-characters
+[003-solution]: https://jobear.dev/algo-hub/leetcode/003-longest-substring-without-repeating-characters/
+[003-code]: /Sources/Solutions/003%20-%20Longest%20Substring%20Without%20Repeating%20Characters/README.md
 
-[004-problem]: https://leetcode.com/problems/median-of-two-sorted-arrays
-[004-walkthrough]: https://jobear.dev/algo-hub/leetcode/004-median-of-two-sorted-arrays/
-[004-solution1]: /Sources/Solutions/004%20-%20Median%20of%20Two%20Sorted%20Arrays/Problem004MergeSolution.swift
-[004-solution2]: /Sources/Solutions/004%20-%20Median%20of%20Two%20Sorted%20Arrays/Problem004TwoPointerSolution.swift
-[004-solution3]: /Sources/Solutions/004%20-%20Median%20of%20Two%20Sorted%20Arrays/Problem004BinarySearchSolution.swift
+[004-url]: https://leetcode.com/problems/median-of-two-sorted-arrays
+[004-solution]: https://jobear.dev/algo-hub/leetcode/004-median-of-two-sorted-arrays/
+[004-code]: /Sources/Solutions/004%20-%20Median%20of%20Two%20Sorted%20Arrays/README.md
 
-[005-problem]: https://leetcode.com/problems/longest-palindromic-substring
-[005-walkthrough]: https://jobear.dev/algo-hub
-[005-solution1]: /Sources/Solutions/005%20-%20Longest%20Palindromic%20Substring
+[005-url]: https://leetcode.com/problems/longest-palindromic-substring
+[005-solution]: https://jobear.dev/algo-hub
+[005-code]: /Sources/Solutions/005%20-%20Longest%20Palindromic%20Substring
 
-[006-problem]: https://leetcode.com/problems/zigzag-conversion
-[006-walkthrough]: https://jobear.dev/algo-hub
-[006-solution1]: /Sources/Solutions/006%20-%20Zigzag%20Conversion/Problem006RowByRowSolution.swift
+[006-url]: https://leetcode.com/problems/zigzag-conversion
+[006-solution]: https://jobear.dev/algo-hub
+[006-code]: /Sources/Solutions/006%20-%20Zigzag%20Conversion/Problem006RowByRowSolution.swift
 
-[007-problem]: https://leetcode.com/problems/reverse-integer
-[007-walkthrough]: https://jobear.dev/algo-hub
-[007-solution1]: /Sources/Solutions/007%20-%20Reverse%20Integer/Problem007StringConversionSolution.swift
+[007-url]: https://leetcode.com/problems/reverse-integer
+[007-solution]: https://jobear.dev/algo-hub
+[007-code]: /Sources/Solutions/007%20-%20Reverse%20Integer/Problem007StringConversionSolution.swift
 
-[008-problem]: https://leetcode.com/problems/string-to-integer-atoi
-[008-walkthrough]: https://jobear.dev/algo-hub
+[008-url]: https://leetcode.com/problems/string-to-integer-atoi
+[008-solution]: https://jobear.dev/algo-hub
 
-[009-problem]: https://leetcode.com/problems/palindrome-number
-[009-walkthrough]: https://jobear.dev/algo-hub
+[009-url]: https://leetcode.com/problems/palindrome-number
+[009-solution]: https://jobear.dev/algo-hub
 
-[010-problem]: https://leetcode.com/problems/regular-expression-matching
-[010-walkthrough]: https://jobear.dev/algo-hub
+[010-url]: https://leetcode.com/problems/regular-expression-matching
+[010-solution]: https://jobear.dev/algo-hub
 
-[011-problem]: https://leetcode.com/problems/container-with-most-water
-[011-walkthrough]: https://jobear.dev/algo-hub
+[011-url]: https://leetcode.com/problems/container-with-most-water
+[011-solution]: https://jobear.dev/algo-hub
 
-[012-problem]: https://leetcode.com/problems/integer-to-roman
-[012-walkthrough]: https://jobear.dev/algo-hub
+[012-url]: https://leetcode.com/problems/integer-to-roman
+[012-solution]: https://jobear.dev/algo-hub
