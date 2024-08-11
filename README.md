@@ -85,6 +85,7 @@ You can find the walkthrough with detailed solutions to all the problems on my b
 | 9 | [Palindrome Number][009-problem] | **`M`** | ![Difficulty][difficulty-easy-shield] | | | | |
 | 10 | [Regular Expression Matching][010-problem] | **`S`** **`DP`** **`R`** | ![Difficulty][difficulty-hard-shield] | | | | |
 | 11 | [Container With Most Water][011-problem] | **`A`** **`TP`** **`G`** | ![Difficulty][difficulty-medium-shield] | | | | |
+| 12 | [Integer to Roman][012-problem] | **`HT`** **`M`** **`S`** | ![Difficulty][difficulty-medium-shield] | | | | |
 
 ### Topics
 - **`A`** : Array
@@ -185,3 +186,6 @@ Please acknowledge [the license](https://github.com/jobearrr/LeetSwift/blob/main
 
 [011-problem]: https://leetcode.com/problems/container-with-most-water
 [011-walkthrough]: https://jobear.dev/algo-hub
+
+[012-problem]: https://leetcode.com/problems/integer-to-roman
+[012-walkthrough]: https://jobear.dev/algo-hub
