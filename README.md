@@ -137,7 +137,7 @@ Please acknowledge [the license](https://github.com/jobearrr/LeetSwift/blob/main
 [solutions-tests-folder]: https://github.com/jobearrr/LeetSwift/tree/main/Tests/SolutionsTests
 
 [difficulty-easy-shield]: https://img.shields.io/badge/Easy-brightgreen.svg
-[difficulty-medium-shield]: https://img.shields.io/badge/Medium-orange.svg
+[difficulty-medium-shield]: https://img.shields.io/badge/Medium-yellow.svg
 [difficulty-hard-shield]: https://img.shields.io/badge/Hard-red.svg
 
 [001-problem]: https://leetcode.com/problems/two-sum
