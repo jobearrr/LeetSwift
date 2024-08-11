@@ -44,6 +44,6 @@ Below is a table with a summary of the solutions.
 <!-- Markdown references https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [003-problem]: https://leetcode.com/problems/longest-substring-without-repeating-characters
 [003-walkthrough]: https://jobear.dev/algo-hub/leetcode/003-longest-substring-without-repeating-characters/
-[003-solution1]: /Sources/Solutions/003%20-%20Longest%20Substring%20Without%20Repeating%20Characters/Problem003BruteForceSolution.swift
-[003-solution2]: /Sources/Solutions/003%20-%20Longest%20Substring%20Without%20Repeating%20Characters/Problem003SlidingWindowSolution.swift
-[003-solution3]: /Sources/Solutions/003%20-%20Longest%20Substring%20Without%20Repeating%20Characters/Problem003OptimizedSlidingWindowSolution.swift
+[003-solution1]: ./Problem003BruteForceSolution.swift
+[003-solution2]: ./Problem003SlidingWindowSolution.swift
+[003-solution3]: ./Problem003OptimizedSlidingWindowSolution.swift
