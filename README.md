@@ -80,6 +80,7 @@ You can find the walkthrough with detailed solutions to all the problems on my b
 | 10 | [Regular Expression Matching][010] | **`S`** **`DP`** **`R`** | ![Difficulty][hard-shield] |
 | 11 | [Container With Most Water][011] | **`A`** **`TP`** **`G`** | ![Difficulty][medium-shield] |
 | 12 | [Integer to Roman][012] | **`HT`** **`M`** **`S`** | ![Difficulty][medium-shield] |
+| 13 | [Roman to Integer][013] | **`HT`** **`M`** **`S`** | ![Difficulty][easy-shield] |
 
 ### Topics
 - **`A`** : Array
@@ -147,3 +148,4 @@ Please acknowledge [the license](https://github.com/jobearrr/LeetSwift/blob/main
 [010]: https://leetcode.com/problems/regular-expression-matching
 [011]: https://leetcode.com/problems/container-with-most-water
 [012]: https://leetcode.com/problems/integer-to-roman
+[013]: https://leetcode.com/problems/roman-to-integer
