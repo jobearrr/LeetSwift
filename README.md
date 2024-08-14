@@ -82,6 +82,7 @@ You can find the walkthrough with detailed solutions to all the problems on my b
 | 12 | [Integer to Roman][012] | **`HT`** **`M`** **`S`** | ![Difficulty][medium-shield] |
 | 13 | [Roman to Integer][013] | **`HT`** **`M`** **`S`** | ![Difficulty][easy-shield] |
 | 14 | [Longest Common Prefix][014] | **`S`** **`T`** | ![Difficulty][easy-shield] |
+| 15 | [3Sum][015] | **`A`** **`TP`** **`SO`** | ![Difficulty][medium-shield] |
 
 ### Topics
 - **`A`** : Array
@@ -97,6 +98,7 @@ You can find the walkthrough with detailed solutions to all the problems on my b
 - **`DP`**: Dynamic Programming
 - **`G`**: Greedy
 - **`T`**: Trie
+- **`SO`**: Sorting
 
 ## TDD Approach
 Here, I use the *TDD* approach, writing the test cases before writing the solution. This way, I can quickly verify if the solution works as expected.
@@ -152,3 +154,4 @@ Please acknowledge [the license](https://github.com/jobearrr/LeetSwift/blob/main
 [012]: https://leetcode.com/problems/integer-to-roman
 [013]: https://leetcode.com/problems/roman-to-integer
 [014]: https://leetcode.com/problems/longest-common-prefix
+[015]: https://leetcode.com/problems/3sum
