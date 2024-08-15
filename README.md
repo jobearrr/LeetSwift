@@ -83,6 +83,7 @@ You can find the walkthrough with detailed solutions to all the problems on my b
 | 13 | [Roman to Integer][013] | **`HT`** **`M`** **`S`** | ![Difficulty][easy-shield] |
 | 14 | [Longest Common Prefix][014] | **`S`** **`T`** | ![Difficulty][easy-shield] |
 | 15 | [3Sum][015] | **`A`** **`TP`** **`SO`** | ![Difficulty][medium-shield] |
+| 16 | [3Sum Closest][016] | **`A`** **`TP`** **`SO`** | ![Difficulty][medium-shield] |
 
 ### Topics
 - **`A`** : Array
@@ -155,3 +156,4 @@ Please acknowledge [the license](https://github.com/jobearrr/LeetSwift/blob/main
 [013]: https://leetcode.com/problems/roman-to-integer
 [014]: https://leetcode.com/problems/longest-common-prefix
 [015]: https://leetcode.com/problems/3sum
+[016]: https://leetcode.com/problems/3sum-closest
