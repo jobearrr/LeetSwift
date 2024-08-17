@@ -12,17 +12,17 @@ final class Problem005DynamicProgrammingSolution: Problem005Definition {
     func longestPalindrome(_ s: String) -> String {
         let n = s.count
         if n < 2 { return s }
-        
+
         var start = 0
         var maxLength = 1
         let chars = Array(s)
-        
+
         var dp = Array(repeating: Array(repeating: false, count: n), count: n)
-        
+
         for i in 0..<n {
             dp[i][i] = true
         }
-        
+
         for length in 2...n {
             for i in 0...(n - length) {
                 let j = i + length - 1
@@ -35,7 +35,7 @@ final class Problem005DynamicProgrammingSolution: Problem005Definition {
                 }
             }
         }
-        
+
         let end = start + maxLength
         return String(chars[start..<end])
     }
