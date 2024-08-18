@@ -85,6 +85,7 @@ You can find the walkthrough with detailed solutions to all the problems on my b
 | 15 | [3Sum][015] | **`A`** **`TP`** **`SO`** | ![Difficulty][medium-shield] |
 | 16 | [3Sum Closest][016] | **`A`** **`TP`** **`SO`** | ![Difficulty][medium-shield] |
 | 17 | [Letter Combinations of a Phone Number][017] | **`HT`** **`S`** **`BT`** | ![Difficulty][medium-shield] |
+| 18 | [4Sum][018] | **`A`** **`TP`** **`SO`** | ![Difficulty][medium-shield] |
 
 ### Topics
 - **`A`** : Array
@@ -159,4 +160,5 @@ Please acknowledge [the license](https://github.com/jobearrr/LeetSwift/blob/main
 [014]: https://leetcode.com/problems/longest-common-prefix
 [015]: https://leetcode.com/problems/3sum
 [016]: https://leetcode.com/problems/3sum-closest
-[017]: https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/
+[017]: https://leetcode.com/problems/letter-combinations-of-a-phone-number
+[018]: https://leetcode.com/problems/4sum
