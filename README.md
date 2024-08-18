@@ -86,6 +86,8 @@ You can find the walkthrough with detailed solutions to all the problems on my b
 | 16 | [3Sum Closest][016] | **`A`** **`TP`** **`SO`** | ![Difficulty][medium-shield] |
 | 17 | [Letter Combinations of a Phone Number][017] | **`HT`** **`S`** **`BT`** | ![Difficulty][medium-shield] |
 | 18 | [4Sum][018] | **`A`** **`TP`** **`SO`** | ![Difficulty][medium-shield] |
+| 19 | [Remove Nth Node From End of List][019] | **`LL`** **`TP`** | ![Difficulty][medium-shield] |
+| 20 | [Valid Parentheses][020] | **`S`** **`ST`** | ![Difficulty][easy-shield] |
 
 ### Topics
 - **`A`** : Array
@@ -103,6 +105,7 @@ You can find the walkthrough with detailed solutions to all the problems on my b
 - **`T`**: Trie
 - **`SO`**: Sorting
 - **`BT`**: Backtracking
+- **`ST`**: Stack
 
 ## TDD Approach
 Here, I use the *TDD* approach, writing the test cases before writing the solution. This way, I can quickly verify if the solution works as expected.
@@ -162,3 +165,5 @@ Please acknowledge [the license](https://github.com/jobearrr/LeetSwift/blob/main
 [016]: https://leetcode.com/problems/3sum-closest
 [017]: https://leetcode.com/problems/letter-combinations-of-a-phone-number
 [018]: https://leetcode.com/problems/4sum
+[019]: https://leetcode.com/problems/remove-nth-node-from-end-of-list
+[020]: https://leetcode.com/problems/valid-parentheses
