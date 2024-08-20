@@ -88,6 +88,7 @@ You can find the walkthrough with detailed solutions to all the problems on my b
 | 18 | [4Sum][018] | **`A`** **`TP`** **`SO`** | ![Difficulty][medium-shield] |
 | 19 | [Remove Nth Node From End of List][019] | **`LL`** **`TP`** | ![Difficulty][medium-shield] |
 | 20 | [Valid Parentheses][020] | **`S`** **`ST`** | ![Difficulty][easy-shield] |
+| 21 | [Merge Two Sorted Lists][021] | **`LL`** **`R`** | ![Difficulty][easy-shield] |
 
 ### Topics
 - **`A`** : Array
@@ -167,3 +168,4 @@ Please acknowledge [the license](https://github.com/jobearrr/LeetSwift/blob/main
 [018]: https://leetcode.com/problems/4sum
 [019]: https://leetcode.com/problems/remove-nth-node-from-end-of-list
 [020]: https://leetcode.com/problems/valid-parentheses
+[021]: https://leetcode.com/problems/merge-two-sorted-lists
