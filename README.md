@@ -169,3 +169,4 @@ Please acknowledge [the license](https://github.com/jobearrr/LeetSwift/blob/main
 [019]: https://leetcode.com/problems/remove-nth-node-from-end-of-list
 [020]: https://leetcode.com/problems/valid-parentheses
 [021]: https://leetcode.com/problems/merge-two-sorted-lists
+[022]: https://leetcode.com
