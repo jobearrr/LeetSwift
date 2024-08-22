@@ -89,6 +89,11 @@ You can find the walkthrough with detailed solutions to all the problems on my b
 | 19 | [Remove Nth Node From End of List][019] | **`LL`** **`TP`** | ![Difficulty][medium-shield] |
 | 20 | [Valid Parentheses][020] | **`S`** **`ST`** | ![Difficulty][easy-shield] |
 | 21 | [Merge Two Sorted Lists][021] | **`LL`** **`R`** | ![Difficulty][easy-shield] |
+| 22 | [Generate Parentheses][022] | **`S`** **`DP`** **`BT`** | ![Difficulty][medium-shield] |
+| 23 | [Merge k Sorted Lists][023] | **`LL`** **`DC`** **`H`** **`MS`** | ![Difficulty][hard-shield] |
+| 24 | [Swap Nodes in Pairs][024] | **`LL`** **`R`** | ![Difficulty][medium-shield] |
+| 25 | [Reverse Nodes in k-Group][025] | **`LL`** **`R`** | ![Difficulty][hard-shield] |
+| 26 | [Remove Duplicates from Sorted Array][026] | **`A`** **`TP`** | ![Difficulty][medium-shield] |
 
 ### Topics
 - **`A`** : Array
@@ -107,6 +112,8 @@ You can find the walkthrough with detailed solutions to all the problems on my b
 - **`SO`**: Sorting
 - **`BT`**: Backtracking
 - **`ST`**: Stack
+- **`H`**: Heap
+- **`MS`**: Merge Sort
 
 ## TDD Approach
 Here, I use the *TDD* approach, writing the test cases before writing the solution. This way, I can quickly verify if the solution works as expected.
@@ -169,4 +176,8 @@ Please acknowledge [the license](https://github.com/jobearrr/LeetSwift/blob/main
 [019]: https://leetcode.com/problems/remove-nth-node-from-end-of-list
 [020]: https://leetcode.com/problems/valid-parentheses
 [021]: https://leetcode.com/problems/merge-two-sorted-lists
-[022]: https://leetcode.com
+[022]: https://leetcode.com/problems/generate-parentheses
+[023]: https://leetcode.com/problems/merge-k-sorted-lists
+[024]: https://leetcode.com/problems/swap-nodes-in-pairs
+[025]: https://leetcode.com/problems/reverse-nodes-in-k-group
+[026]: https://leetcode.com/problems/remove-duplicates-from-sorted-array
