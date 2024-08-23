@@ -94,6 +94,10 @@ You can find the walkthrough with detailed solutions to all the problems on my b
 | 24 | [Swap Nodes in Pairs][024] | **`LL`** **`R`** | ![Difficulty][medium-shield] |
 | 25 | [Reverse Nodes in k-Group][025] | **`LL`** **`R`** | ![Difficulty][hard-shield] |
 | 26 | [Remove Duplicates from Sorted Array][026] | **`A`** **`TP`** | ![Difficulty][medium-shield] |
+| 27 | [Remove Element][027] | **`A`** **`TP`** | ![Difficulty][easy-shield] |
+| 28 | [Find the Index of the First Occurrence in a String][028] | **`TP`** **`S`** **`SM`** | ![Difficulty][easy-shield] |
+| 29 | [Divide Two Integers][029] | **`B`** **`BM`** | ![Difficulty][medium-shield] |
+| 30 | [Substring with Concatenation of All Words][030] | **`HT`** **`S`** **`SW`** | ![Difficulty][hard-shield] |
 
 ### Topics
 - **`A`** : Array
@@ -114,6 +118,8 @@ You can find the walkthrough with detailed solutions to all the problems on my b
 - **`ST`**: Stack
 - **`H`**: Heap
 - **`MS`**: Merge Sort
+- **`SM`**: String Matching
+- **`BM`**: Bit Manipulation
 
 ## TDD Approach
 Here, I use the *TDD* approach, writing the test cases before writing the solution. This way, I can quickly verify if the solution works as expected.
@@ -181,3 +187,7 @@ Please acknowledge [the license](https://github.com/jobearrr/LeetSwift/blob/main
 [024]: https://leetcode.com/problems/swap-nodes-in-pairs
 [025]: https://leetcode.com/problems/reverse-nodes-in-k-group
 [026]: https://leetcode.com/problems/remove-duplicates-from-sorted-array
+[027]: https://leetcode.com/problems/remove-element
+[028]: https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string
+[029]: https://leetcode.com/problems/divide-two-integers
+[030]: https://leetcode.com/problems/substring-with-concatenation-of-all-words
