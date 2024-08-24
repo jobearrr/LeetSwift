@@ -191,3 +191,4 @@ Please acknowledge [the license](https://github.com/jobearrr/LeetSwift/blob/main
 [028]: https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string
 [029]: https://leetcode.com/problems/divide-two-integers
 [030]: https://leetcode.com/problems/substring-with-concatenation-of-all-words
+[031]: https://leetcode.com/problems/next-permutation
