@@ -98,6 +98,77 @@ You can find the walkthrough with detailed solutions to all the problems on my b
 | 28 | [Find the Index of the First Occurrence in a String][028] | **`TP`** **`S`** **`SM`** | ![Difficulty][easy-shield] |
 | 29 | [Divide Two Integers][029] | **`B`** **`BM`** | ![Difficulty][medium-shield] |
 | 30 | [Substring with Concatenation of All Words][030] | **`HT`** **`S`** **`SW`** | ![Difficulty][hard-shield] |
+| 31 | [Next Permutation][031] |  | ![Difficulty][medium-shield] |
+| 32 | [Longest Valid Parentheses][032] |  | ![Difficulty][hard-shield] |
+| 33 | [Search in Rotated Sorted Array][033] |  | ![Difficulty][medium-shield] |
+| 34 | [Find First and Last Position of Element in Sorted Array][034] |  | ![Difficulty][medium-shield] |
+| 35 | [Search Insert Position][035] |  | ![Difficulty][easy-shield] |
+| 36 | [Valid Sudoku][036] |  | ![Difficulty][medium-shield] |
+| 37 | [Sudoku Solver][037] |  | ![Difficulty][hard-shield] |
+| 38 | [Count and Say][038] |  | ![Difficulty][medium-shield] |
+| 39 | [Combination Sum][039] |  | ![Difficulty][medium-shield] |
+| 40 | [Combination Sum II][040] |  | ![Difficulty][medium-shield] |
+| 41 | [First Missing Positive][041] |  | ![Difficulty][hard-shield] |
+| 42 | [Trapping Rain Water][042] |  | ![Difficulty][hard-shield] |
+| 43 | [Multiply Strings][043] |  | ![Difficulty][medium-shield] |
+| 44 | [Wildcard Matching][044] |  | ![Difficulty][hard-shield] |
+| 45 | [Jump Game II][045] |  | ![Difficulty][medium-shield] |
+| 46 | [Permutations][046] |  | ![Difficulty][medium-shield] |
+| 47 | [Permutations II][047] |  | ![Difficulty][medium-shield] |
+| 48 | [Rotate Image][048] |  | ![Difficulty][medium-shield] |
+| 49 | [Group Anagrams][049] |  | ![Difficulty][medium-shield] |
+| 50 | [Pow(x, n)][050] |  | ![Difficulty][medium-shield] |
+| 51 | [N-Queens][051] |  | ![Difficulty][hard-shield] |
+| 52 | [N-Queens II][052] |  | ![Difficulty][hard-shield] |
+| 53 | [Maximum Subarray][053] |  | ![Difficulty][medium-shield] |
+| 54 | [Spiral Matrix][054] |  | ![Difficulty][medium-shield] |
+| 55 | [Jump Game][055] |  | ![Difficulty][medium-shield] |
+| 56 | [Merge Intervals][056] |  | ![Difficulty][medium-shield] |
+| 57 | [Insert Interval][057] |  | ![Difficulty][hard-shield] |
+| 58 | [Length of Last Word][058] |  | ![Difficulty][easy-shield] |
+| 59 | [Spiral Matrix II][059] |  | ![Difficulty][medium-shield] |
+| 60 | [Permutation Sequence][060] |  | ![Difficulty][hard-shield] |
+| 61 | [Rotate List][061] |  | ![Difficulty][medium-shield] |
+| 62 | [Unique Paths][062] |  | ![Difficulty][medium-shield] |
+| 63 | [Unique Paths II][063] |  | ![Difficulty][medium-shield] |
+| 64 | [Minimum Path Sum][064] |  | ![Difficulty][medium-shield] |
+| 65 | [Valid Number][065] |  | ![Difficulty][hard-shield] |
+| 66 | [Plus One][066] |  | ![Difficulty][easy-shield] |
+| 67 | [Add Binary][067] |  | ![Difficulty][easy-shield] |
+| 68 | [Text Justification][068] |  | ![Difficulty][hard-shield] |
+| 69 | [Sqrt(x)][069] |  | ![Difficulty][easy-shield] |
+| 70 | [Climbing Stairs][070] |  | ![Difficulty][easy-shield] |
+| 71 | [Simplify Path][071] |  | ![Difficulty][medium-shield] |
+| 72 | [Edit Distance][072] |  | ![Difficulty][hard-shield] |
+| 73 | [Set Matrix Zeroes][073] |  | ![Difficulty][medium-shield] |
+| 74 | [Search a 2D Matrix][074] |  | ![Difficulty][medium-shield] |
+| 75 | [Sort Colors][075] |  | ![Difficulty][medium-shield] |
+| 76 | [Minimum Window Substring][076] |  | ![Difficulty][hard-shield] |
+| 77 | [Combinations][077] |  | ![Difficulty][medium-shield] |
+| 78 | [Subsets][078] |  | ![Difficulty][medium-shield] |
+| 79 | [Word Search][079] |  | ![Difficulty][medium-shield] |
+| 80 | [Remove Duplicates from Sorted Array II][080] |  | ![Difficulty][medium-shield] |
+| 81 | [Search in Rotated Sorted Array II][081] |  | ![Difficulty][medium-shield] |
+| 82 | [Remove Duplicates from Sorted List II][082] |  | ![Difficulty][medium-shield] |
+| 83 | [Remove Duplicates from Sorted List][083] |  | ![Difficulty][easy-shield] |
+| 84 | [Largest Rectangle in Histogram][084] |  | ![Difficulty][hard-shield] |
+| 85 | [Maximal Rectangle][085] |  | ![Difficulty][hard-shield] |
+| 86 | [Partition List][086] |  | ![Difficulty][medium-shield] |
+| 87 | [Scramble String][087] |  | ![Difficulty][hard-shield] |
+| 88 | [Merge Sorted Array][088] |  | ![Difficulty][easy-shield] |
+| 89 | [Gray Code][089] |  | ![Difficulty][medium-shield] |
+| 90 | [Subsets II][090] |  | ![Difficulty][medium-shield] |
+| 91 | [Decode Ways][091] |  | ![Difficulty][medium-shield] |
+| 92 | [Reverse Linked List II][092] |  | ![Difficulty][medium-shield] |
+| 93 | [Restore IP Addresses][093] |  | ![Difficulty][medium-shield] |
+| 94 | [Binary Tree Inorder Traversal][094] |  | ![Difficulty][easy-shield] |
+| 95 | [Unique Binary Search Trees II][095] |  | ![Difficulty][medium-shield] |
+| 96 | [Unique Binary Search Trees][096] |  | ![Difficulty][medium-shield] |
+| 97 | [Interleaving String][097] |  | ![Difficulty][hard-shield] |
+| 98 | [Validate Binary Search Tree][098] |  | ![Difficulty][medium-shield] |
+| 99 | [Recover Binary Search Tree][099] |  | ![Difficulty][hard-shield] |
+| 100 | [Same Tree][100] |  | ![Difficulty][easy-shield] |
+
 
 ### Topics
 - **`A`** : Array
