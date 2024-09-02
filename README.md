@@ -98,8 +98,8 @@ You can find the walkthrough with detailed solutions to all the problems on my b
 | 28 | [Find the Index of the First Occurrence in a String][028] | **`TP`** **`S`** **`SM`** | ![Difficulty][easy-shield] |
 | 29 | [Divide Two Integers][029] | **`B`** **`BM`** | ![Difficulty][medium-shield] |
 | 30 | [Substring with Concatenation of All Words][030] | **`HT`** **`S`** **`SW`** | ![Difficulty][hard-shield] |
-| 31 | [Next Permutation][031] |  | ![Difficulty][medium-shield] |
-| 32 | [Longest Valid Parentheses][032] |  | ![Difficulty][hard-shield] |
+| 31 | [Next Permutation][031] | **`A`** **`TP`** | ![Difficulty][medium-shield] |
+| 32 | [Longest Valid Parentheses][032] | **`S`** **`DP`** **`ST`** | ![Difficulty][hard-shield] |
 | 33 | [Search in Rotated Sorted Array][033] |  | ![Difficulty][medium-shield] |
 | 34 | [Find First and Last Position of Element in Sorted Array][034] |  | ![Difficulty][medium-shield] |
 | 35 | [Search Insert Position][035] |  | ![Difficulty][easy-shield] |
