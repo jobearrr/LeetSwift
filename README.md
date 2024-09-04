@@ -17,8 +17,8 @@ Solutions to [LeetCode](https://leetcode.com/) problems written in Swift.
 ## Running the solutions
 
 Each solution has test cases that can be found in the [SolutionsTests][solutions-tests-folder] folder.  
-I try to write tests covering as much of the code as possible.  
-The project structure might still change a bit as I'm working on  the solutions and tests! 😬
+I try to write tests covering as much of the code as possible (on top of the test cases provided by LeetCode).  
+The project structure might still change a bit as I'm working on the solutions and tests! 😬
 
 You can modify the test cases, and provide new inputs and expected outputs.
 
