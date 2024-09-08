@@ -63,8 +63,7 @@ Please pay attention to this if adding problems and implementing solutions, so e
 ## Problems
 
 Below, you can find a table with all the problems with their corresponding solution.
-
-You can find the walkthrough with detailed solutions to all the problems on my blog [jobear.dev][jobear-algo-url], or concrete problem solution walkthrough on the `Walkthrough` column.
+You can find a detailed walkthrough of the solutions to these problems on my blog [jobear.dev][jobear-algo-url].
 
 | # | Problem & Solutions | Topics | Difficulty |
 | --- | --- | --- | --- |
