@@ -37,8 +37,8 @@ Please pay attention to this if adding problems and implementing solutions, so e
 │   │   ├── ...
 │   │   └── XXX - Problem title
 │   │       ├── ProblemXXXDefinition.swift         # Problem definition
-│   │       ├── ProblemXXXMSolution.swift          # Solution M
-│   │       ├── ProblemXXXMSolution.swift          # Solution N
+│   │       ├── ProblemXXX<M>Solution.swift          # Solution M
+│   │       ├── ProblemXXX<N>Solution.swift          # Solution N
 │   │       ├── ...                                # Other solutions
 │   │       └── README.md                          # Documentation and solutions
 │   └── TestSupport                                # Supporting classes / extensions
