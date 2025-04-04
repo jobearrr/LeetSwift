@@ -7,7 +7,6 @@ Solutions to [LeetCode](https://leetcode.com/) problems written in Swift.
 [![Maintainability][maintainability-shield]][maintainability-url]
 [![Test Coverage][coverage-shield]][coverage-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 ## Requirements
 
@@ -215,8 +214,6 @@ Please acknowledge [the license](https://github.com/jobearrr/LeetSwift/blob/main
 
 [license-shield]: https://img.shields.io/github/license/jobearrr/LeetSwift.svg?style=flat
 [license-url]: https://github.com/jobearrr/LeetSwift?tab=AGPL-3.0-1-ov-file#readme
-[linkedin-shield]: https://img.shields.io/badge/-jobertsa-0072b1?style=flat&logo=Linkedin&logoColor=white
-[linkedin-url]: https://www.linkedin.com/in/jobertsa
 [jobear-blog-url]: https://jobear.dev
 [jobear-algo-url]: https://jobear.dev/algo-hub/
 
